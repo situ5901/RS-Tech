@@ -1,0 +1,47 @@
+.one{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(0, 7, 38);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 10px;
+}
+
+.two{
+    height: 50px;
+    width: 300px;
+    background-color:  rgb(0, 7, 38);
+    color: bisque;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.main{
+    display: flex;
+    margin-left: 410px;
+    margin-right: 410px;
+}
+.three{
+    height: 50px;
+    width: 300px;
+    background-color:  rgb(0, 7, 38);
+    color: bisque;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.error {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+  }
+  .server-error h4 {
+    text-align: center;
+    margin-top: -120px;
+  }
+ 
