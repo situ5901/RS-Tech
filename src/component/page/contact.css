@@ -11,20 +11,19 @@ input,
 textarea {
   font-family: "Poppins", sans-serif;
 }
-
 .container {
-    position: relative;
-    border-radius: 50px;
-    width: 100%;
-    min-height: 100vh;
-    padding: 2rem;
-    background-color: #fafafa;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center; /* add this line */
-    margin: 0 auto; /* add this line */
-  }
+  position: relative;
+  border-radius: 50px;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #fafafa;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
 
 .form {
   width: 100%;
@@ -36,14 +35,14 @@ textarea {
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto; /* add this line */
+  text-align: center; /* add this line */
 }
 
 .contact-form {
   background-color: #01091b;
   position: relative;
-}
-
-.circle {
+}.circle {
   border-radius: 50%;
   background: linear-gradient(135deg, transparent 20%, #01091b);
   position: absolute;
