@@ -1,5 +1,5 @@
 .active{
-    background-color: #1d4ed8;
+    background-color: #0431ab;
     
 }
 
@@ -8,7 +8,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: auto;
-    background-color: #0f172a;
+    background-color: #01091b;
     color: white;
     position: sticky;
     top: 0;
@@ -127,3 +127,4 @@ ul{
     margin-left: 10px;
    
 }
+

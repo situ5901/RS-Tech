@@ -7,26 +7,26 @@ function About() {
   const [user, setUser] = useState([]);
   const [hasError, setHasError] = useState(false);
 
+
   useEffect(() => {
     axios.get("http://127.0.0.1:3001/data")
-     .then(response => {
-      setUser(response.data);
+      .then(response => {
+        setUser(response.data);
       })
-     .catch(err => {
-        console.log(err);
+      .catch(err => {
+        console.error(err);
         setHasError(true);
       });
   }, []);
-
   return (
     <div>
       {
-        hasError? (
+        hasError ? (
           <>
-          <div className="server-error">
-          <img className='error' src={devilUrl} alt="" /><br />
-          <h4>Warning: Server Error</h4>
-          </div>
+            <div className="server-error">
+              <img className='error' src={devilUrl} alt="" /><br />
+              <h4>Warning: Server Error</h4>
+            </div>
           </>
         ) : (
           user.map((item) => (

@@ -1,15 +1,47 @@
 import React from "react";
 // import one from "./one.jpeg";
 import videoBG from './video.mp4'
+import maincard from './cardimg.png'
 import "./Home.css";
+
 
 function Home() {
   return (
     <>
 
-        <video className="vidbg" src={videoBG} autoPlay loop muted/>
-    
-    
+      <video className="vidbg" src={videoBG} autoPlay loop muted />
+
+
+
+      <div className="card-main">
+
+        <div class="container">
+          <h3>Why Choose RS Tech?</h3>
+          <p>Get benefits with the best Digital Marketing Service with unique strategies. Improve the search visibility of your website with the proper techniques of our digital marketing experts. Boost sales and optimize your page for more user engagement.</p>
+          
+          <div class="pyramid-loader">
+  <div class="wrapper">
+    <span class="side side1"></span>
+    <span class="side side2"></span>
+    <span class="side side3"></span>
+    <span class="side side4"></span>
+    <span class="shadow"></span>
+  </div>  
+</div>
+
+
+        </div>
+
+        <div className="sec-container">
+          <h3>Why Choose Situ?</h3>
+          <img className="maincard" src={maincard} alt="" />
+
+
+        </div>
+
+
+
+      </div>
       <div class="row">
 
         <div class="columns">
