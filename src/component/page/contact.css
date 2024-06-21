@@ -208,12 +208,12 @@ textarea.input {
 .contact-info .title-contact {
   color: #01091b;
 }
-
 .text {
   color: #333;
-  margin: 1.5rem 0 2rem 0;
-}
+  margin: 2 rem 0 2rem 0;
+  text-align: justify;
 
+}
 .information {
   display: flex;
   color: #555;
@@ -233,10 +233,12 @@ textarea.input {
 
 .social-media {
   padding: 2rem 0 0 0;
+  margin-top: -30px;
 }
 
 .social-media p {
   color: #333;
+  
 }
 
 .social-icons {

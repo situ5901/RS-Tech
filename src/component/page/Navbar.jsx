@@ -49,7 +49,7 @@ export const Navbar = () => {
         </li>
         
         <li>
-          <NavLink to="/Services">Services</NavLink>
+          <NavLink to="/Services">Technology</NavLink>
         </li>
 
         <li>
@@ -62,14 +62,16 @@ export const Navbar = () => {
 
        
          {
-          isAuthenticated ?  <li><button className="login" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+          isAuthenticated ?  <li><button type="button" class="btn btn-danger"  onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
       Log Out
-    </button></li>
+    </button>
+    
+    </li>
     :
-    <b> <li><button className="login" onClick={() => loginWithRedirect()}>Log In</button></li>
+    <b> <li><button type="button" class="btn btn-outline-secondary" onClick={() => loginWithRedirect()}>Log In</button></li>
        </b>
          }
-         <div className="loginimg"> {isAuthenticated && <img  src={user.picture} alt={user.name} height="30px" width="30px" />}</div>
+         <div className="loginimg"> {isAuthenticated && <img  src={user.picture} alt={user.name} height="30px" width="30px"  />}</div>
          
        
         
