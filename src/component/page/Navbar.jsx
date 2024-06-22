@@ -49,7 +49,7 @@ export const Navbar = () => {
         </li>
         
         <li>
-          <NavLink to="/Services">Technology</NavLink>
+          <NavLink to="/Services">Services</NavLink>
         </li>
 
         <li>
@@ -73,8 +73,6 @@ export const Navbar = () => {
          }
          <div className="loginimg"> {isAuthenticated && <img  src={user.picture} alt={user.name} height="30px" width="30px"  />}</div>
          
-       
-        
 
       </ul>
     </nav>

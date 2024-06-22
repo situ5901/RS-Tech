@@ -1,8 +1,7 @@
 import { Routes,Route } from 'react-router-dom';
 import './App.css';
 import About from './component/page/About';
-import Services from './component/page/Services';
-import Technology from './component/page/Technology';
+import Services from './component/page/Technology.jsx';
 import Careers from './component/page/Careers';
 import { Navbar } from './component/page/Navbar';
 import Home from './component/page/Home.jsx';
@@ -23,7 +22,6 @@ function App() {
 <Route path="/"element={<Home/>}/>
   <Route path="/About"element={<About/>}/>
   <Route path="/Services"element={<Services/>}/>
-  <Route path="/Technology"element={<Technology/>}/>
   <Route path="/Careers"element={<Careers/>}/>
   <Route path="/Contact"element={<Contact/>}/>
   <Route path="/web" element={<Web/>}/>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import one from '../assest/1.jpg'
 import two from '../assest/2.jpg'
 import three from '../assest/3.jpg'
@@ -9,9 +9,18 @@ import "./Home.css";
 
 
 function Home() {
+
+  const [mainText, setMainText] = useState(" 'Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, but since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels (like coal, oil, and gas), which produces heat-trapping gases.");
+
+  const handleLinkClick = (event, text) => {
+    event.preventDefault();
+    setMainText(text);
+  };
+
   return (
     <>
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div className="Home" style={{background:"#FDFEFE  "}}>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" >
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -21,39 +30,39 @@ function Home() {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active h-50">
-            <img src={one} class="d-block w-100"  alt="..."/>
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-              </div>
+            <img src={one} class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src={two} class="d-block w-100" alt="..."/>
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-              </div>
+            <img src={two} class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src={three} class="d-block w-100" alt="..."/>
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div>
+            <img src={three} class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src={four} class="d-block w-100" alt="..."/>
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div>
+            <img src={four} class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src={five} class="d-block w-100" alt="..."/>
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div>
+            <img src={five} class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -65,11 +74,8 @@ function Home() {
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
-
-
-
-
+      
+      <h1 style={{textAlign:"center", marginTop:"25px"}}>Why Organizations Choose RS-Tech</h1>
       <div className="card-container">
         <div className="card">
           <NavLink to="/web">
@@ -110,12 +116,54 @@ function Home() {
       </div>
 
 
+<div className="navmenu">
 
 
 
+      <div style={{
+        backgroundColor: '#01091b',
+        color:"whitesmoke",
+        borderRadius:"8px",
+        padding: '15px',
+        textAlign: 'center'
+      }}>
+      <h2 style={{textAlign:"center"}}>Our mein focus is to utilize the</h2>
+      <p style={{textAlign:"center"}}>latest technology and turn our ideas into reality</p>
+      </div>
+
+      <div style={{
+        overflow: 'auto'
+      }}>
+        <div className="menu">
+          <a onClick={(event) => handleLinkClick(event, 'Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, but since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels (like coal, oil, and gas), which produces heat-trapping gases.1')}>Link 1</a>
+          <a onClick={(event) => handleLinkClick(event, 'We have a team of developers focused on creating Android and iOS App and  UI/UX Design, it works on Android or iOS multi platform')}>App Development 2</a>
+          <a onClick={(event) => handleLinkClick(event, 'We also work on UX/UI, based on user requirements we prepare the best design that looks good and is attractive')}>UI/UX Design 3</a>
+          <a onClick={(event) => handleLinkClick(event, 'We provide the best digital marketing service possible allows a company to grow its business and improve the recognition of its brand')}>Digital Marketing 4</a>
+        </div>
+
+        <div className="main" style={{maxWidth:"25"}}>
+          <p>{mainText}</p>
+        </div>
+
+        <div className="right">
+          <h2>About</h2>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+      </div>
+
+      <div style={{
+        color:"whitesmoke",
+        backgroundColor: '#01091b',
+        textAlign: 'center',
+        padding: '10px',
+        marginTop: '7px'
+      }}>
+        er.situkumar@gmail.com
+      </div>
 
 
 
+</div>
 
       <div className="row">
         <div className="columns">
@@ -153,6 +201,7 @@ function Home() {
         </div>
 
 
+      </div>
       </div>
     </>
   );
