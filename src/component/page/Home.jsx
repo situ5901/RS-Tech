@@ -1,16 +1,24 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import one from '../assest/1.jpg'
 import two from '../assest/2.jpg'
 import three from '../assest/3.jpg'
 import four from '../assest/4.jpg'
 import five from '../assest/5.jpg'
 import { NavLink } from "react-router-dom";
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import ai from '../assest/ai.png'
+import angular from '../assest/angular.png'
 import "./Home.css";
-
-
-
+import react from '../assest/react.png'
+import nestjs from '../assest/nestjs.png'
+import typescript from '../assest/typescript.png'
+import docker from '../assest/docker.png'
+import express from '../assest/express.png'
+import java from '../assest/java.png'
+import wordpress from '../assest/wordpress.png'
+import nodejs from '../assest/nodejs.png'
+import mongoDB from '../assest/mongoDB.png'
+import friebase from '../assest/friebase.png'
+import SQL from '../assest/SQL.png'
 
 function Home() {
 
@@ -25,6 +33,8 @@ function Home() {
 
   return (
     <>
+
+      {/* carouselExampleCaptions */}
 
       <div className="Home" style={{ background: "#FDFEFE  " }}>
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" >
@@ -82,6 +92,7 @@ function Home() {
           </button>
         </div>
 
+        {/* Car */}
         <h1 style={{ textAlign: "center", marginTop: "25px" }}>Why Organizations Choose RS-Tech</h1>
         <div className="card-container">
           <div className="card">
@@ -123,10 +134,9 @@ function Home() {
         </div>
 
 
+        {/* navmenu Section */}
+
         <div className="navmenu">
-
-
-
           <div style={{
             backgroundColor: '#01091b',
             color: "whitesmoke",
@@ -134,7 +144,7 @@ function Home() {
             padding: '15px',
             textAlign: 'center'
           }}>
-            <h2 style={{ textAlign: "center" }}>Our Main Focuse is use to Latest </h2>
+            <h2 className="our-main" style={{ textAlign: "center" }}>Our Main Focuse is use to Latest </h2>
             <p style={{ textAlign: "center" }}>Technoloy and Successfully buid our ideas into Reality</p>
           </div>
 
@@ -153,7 +163,7 @@ function Home() {
             </div>
 
             <div className="right">
-              <h2>About</h2>
+              <h2 className="about">About</h2>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             </div>
           </div>
@@ -167,48 +177,65 @@ function Home() {
           }}>
             er.situkumar@gmail.com
           </div>
+        </div>
+
+        {/* About Sectiong */}
 
 
+
+        <div class="header">
+          <h1>Reliable Digital Marketing Partners:</h1>
+          <h1>Efficiently Driving Your Business Growth</h1>
+
+          <p>Digital marketing involves promoting products or services through digital channels like social media and email.</p>
+        </div>
+        <div class="row1-container">
+          <div class="box box-down cyan">
+            <h2>PPC</h2>
+            <p>advertising is a digital marketing model where advertisers pay for each ad click.</p>
+            <img src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt="" />
+          </div>
+
+          <div class="box red" style={{ borderRadius: "10px" }} >
+            <h2>SEO</h2>
+            <p>we have a team to work on Optimizing website visibility in search engines.</p>
+            <img src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="" />
+          </div>
+
+          <div class="box box-down blue">
+            <h2>SMM</h2>
+            <p>Boost Your Online Presence | Effective Social Media Management Solutions</p>
+            <img src="https://assets.codepen.io/2301174/icon-calculator.svg" alt="" />
+          </div>
+        </div>
+        <div class="row2-container">
+          <img style={{ width: "20%" }} src={ai} />
+        </div>
+        <div className="hr">
+          <hr />
+        </div>
+
+        <div className="technology">
+          <h1>We work on all these technologies :</h1>
+          <h4>and try to provide the best services.</h4>
+        </div>
+
+        <div className="techno">
+          <div style={{ display: "flex" }} ><img className="angular" src={angular} alt="" /><h5>AngularJs</h5></div>
+          <div style={{ display: "flex" }}> <img className="react" src={react} alt="" /><h5>React</h5></div>
+          <div style={{ display: "flex" }}> <img className="nestjs" src={nestjs} alt="" /><h5>NextJS</h5></div>
+          <div style={{ display: "flex" }}> <img className="typescript" src={typescript} alt="" /> <h5>TypeScript</h5></div>
+          <div style={{ display: "flex" }} ><img className="angular" src={docker} alt="" /><h5>Docker</h5></div>
+          <div style={{ display: "flex" }}> <img className="express" src={express} alt="" /><h5>Express</h5></div>
+          <div style={{ display: "flex" }}> <img className="nestjs" src={java} alt="" /><h5>java</h5></div>
+          <div style={{ display: "flex" }}> <img className="typescript" src={wordpress} alt="" /> <h5>Wordpress</h5></div>
+          <div style={{ display: "flex" }} ><img className="angular" src={nodejs} alt="" /><h5>NodeJS</h5></div>
+          <div style={{ display: "flex" }}> <img className="react" src={mongoDB} alt="" /><h5>MongoDB</h5></div>
+          <div style={{ display: "flex" }}> <img className="nestjs" src={friebase} alt="" /><h5>Firebase</h5></div>
+          <div style={{ display: "flex" }}> <img className="typescript" src={SQL} alt="" /> <h5>SQL</h5></div>
 
         </div>
 
-        <div className="row">
-          <div className="columns">
-            <h3>Requirement</h3>
-            <p>A person who motivates others in the achievement of personal objectives such as improving relationships, setting goals, and determining priorities.</p>
-
-          </div>
-          <div className="columns">
-            <h3>Planning</h3>
-            <p>A person who acts independently without being affiliated with an organization. Who pursues a profession without a long-term commitment to any one employer.</p>
-
-          </div>
-          <div className="columns">
-            <h3>Dividation</h3>
-            <p>An entrepreneur who works “solo,” running their business. They might have contractors for hire, yet have full responsibility for running their business</p>
-
-          </div>
-
-          <div className="columns">
-            <h3>Designing</h3>
-            <p>An entrepreneur who works “solo,” running their business. They might have contractors for hire, yet have full responsibility for running their business</p>
-
-          </div>
-
-          <div className="columns">
-            <h3>Testing</h3>
-            <p>An entrepreneur who works “solo,” running their business. They might have contractors for hire, yet have full responsibility for running their business</p>
-
-          </div>
-
-          <div className="columns">
-            <h3>Implementation</h3>
-            <p>An entrepreneur who works “solo,” running their business. They might have contractors for hire, yet have full responsibility for running their business</p>
-
-          </div>
-
-
-        </div>
       </div>
     </>
   );

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import "./contact.css"
+import Lottie from "lottie-react";
 import Button from 'react-bootstrap/Button';
+import emailpopup from '../assest/emailotti.json'
 import Modal from 'react-bootstrap/Modal';
 function Contact() {
   const [name, setName] = useState("");
@@ -11,6 +13,8 @@ function Contact() {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+
 
 
   const sendEmail = async (e) => {
@@ -45,8 +49,9 @@ function Contact() {
           <div className="contact-info">
             <h3 className="title-contact">Let's get in touch</h3>
             <p className="text">
+
               Do you have any questions, comments or need a project based solution? Our team provides the best IT services 24/7.  Whether you need help with project support services, we are here to listen.
-            </p>
+            </p>a
             <div className="information">
               <svg xmlns="http://www.w3.org/2000/svg" width="23" style={{ marginTop: "-15" }} height="25" fill="#01091b" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                 <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
@@ -117,22 +122,39 @@ function Contact() {
               <button type="submit" className="btn btn-primary" onClick={handleShow} >Submit</button>
 
 
-                <Modal
-                 show={show}
-                 onHide={handleClose}
-                 aria-labelledby="example-modal-sizes-title-sm"
-                 backgroundColor="white" // or bg="white"
-                 centered
+              <Modal
+                show={show}
+                onHide={handleClose}
+                aria-labelledby="example-modal-sizes-title-sm"
+                backgroundColor="white" // or bg="white"
+                centered
 
-                 keyboard={false} 
-                 >
+                keyboard={false}
+              >
                 <Modal.Header closeButton style={{ backgroundColor: '#01091b', color: 'white' }} >
-                  <Modal.Title id="example-modal-sizes-title-sm" styl e={{ color: 'white' }}>
+                  <Modal.Title id="example-modal-sizes-title-sm" style={{ color: 'white' }}>
                     Successfully Send Mail 💌
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body style={{ backgroundColor: '#01091b', color: 'white', padding: '20px' }}>
-                Hello Dear{` ${name} `} Your Mail is Successfully Send Thank for Contact with RS-Tech
+                  <div style={{ display: 'flex', alignItems: 'center', }}>
+                   <div style={{width:"50px",height:"50px",overflow:"hidden"}}>
+                   <Lottie
+                      style={{
+                        whiteSpace: "nowrap",
+                        width:"100%",
+                        height:"80%",
+                        margin: 0,
+                        padding: 0,
+                        overflow: 'hidden',
+                      }}
+                      animationData={emailpopup}
+                    />
+                   </div>
+                    <p style={{ flex: 1, padding: '0 10px', display: "block" }}>
+                      Hello Dear {` ${name} `} Your Mail is Successfully Send Thank for Contact with RS-Tech
+                    </p>
+                  </div>
                 </Modal.Body>
                 <Modal.Footer style={{ backgroundColor: '#01091b', color: 'white' }}>
                   <Button variant="secondary" onClick={handleClose} style={{ backgroundColor: 'white', color: 'black', border: 'none' }}>

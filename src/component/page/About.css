@@ -26,14 +26,22 @@
     color: bisque;
     margin-left: 10px;
   }
-  
   .error {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     margin: 0 auto;
     height: auto;
   }
   
+  .server-error {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+  }
+  
   .server-error h4 {
-    text-align: center;
-    margin-top: -120px;
+    text-align: center; 
+    margin-top: 0; 
   }
