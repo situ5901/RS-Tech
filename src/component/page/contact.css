@@ -218,6 +218,7 @@ textarea.input {
   color: #333;
   margin: 2 rem 0 2rem 0;
   text-align: justify;
+  text-justify: inter-word;
 
 }
 .information {
@@ -249,6 +250,8 @@ textarea.input {
 
 .social-icons {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 0.5rem;
 }
 

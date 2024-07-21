@@ -17,14 +17,16 @@ import java from '../assest/java.png'
 import wordpress from '../assest/wordpress.png'
 import nodejs from '../assest/nodejs.png'
 import mongoDB from '../assest/mongoDB.png'
+import buss from '../assest/buss.jpg'
 import friebase from '../assest/friebase.png'
 import SQL from '../assest/SQL.png'
-
+import moderniseimg1 from '../assest/moderniseimg1.jpg'
+import Success from "./Success";
 function Home() {
 
 
 
-  const [mainText, setMainText] = useState(" 'Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, but since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels (like coal, oil, and gas), which produces heat-trapping gases.");
+  const [mainText, setMainText] = useState("Requirement gathering is the first phase where you collect and document user requirements. This process guides the development of several important documents like the Software Requirement Specification (SRS) or product specification, a Use Case document, and a Requirement Traceability Matrix document.");
 
   const handleLinkClick = (event, text) => {
     event.preventDefault();
@@ -93,7 +95,7 @@ function Home() {
         </div>
 
         {/* Car */}
-        <h1 style={{ textAlign: "center", marginTop: "25px" }}>Why Organizations Choose RS-Tech</h1>
+        <h1 style={{ textAlign: "center", marginTop: "25px" }}>What are our natural abilities</h1>
         <div className="card-container">
           <div className="card">
             <NavLink to="/web">
@@ -134,6 +136,17 @@ function Home() {
         </div>
 
 
+        <div className="modernise">
+          <div className="modernise1">
+            <h4>The RS team: where technology meets power</h4>
+            <p>Our team is a cohesive unit that works collaboratively to ensure the successful completion of projects well ahead of schedule. We adopt a meticulous approach, breaking down complex tasks into manageable steps and tackling each one with unwavering dedication. We pour our hearts and souls into every project, leveraging our collective expertise to deliver high-quality results that exceed expectations. With technology at our fingertips, we're able to streamline processes, identify potential pitfalls, and rectify issues before they escalate into major problems Our team's technical expertise spans a wide range of areas, from cutting-edge programming languages to innovative design principles. We're well-versed in the latest industry standards and best practices, and we're committed to staying up-to-date with the latest developments in technology. This enables us to provide forward-thinking solutions that are tailored to our clients' specific needs and goals.</p>
+          </div>
+
+          <div className="modernise2">
+            <img className="moderniseimg1" src={moderniseimg1} alt="" />
+          </div>
+        </div>
+
         {/* navmenu Section */}
 
         <div className="navmenu">
@@ -152,19 +165,20 @@ function Home() {
             overflow: 'auto'
           }}>
             <div className="menu">
-              <a onClick={(event) => handleLinkClick(event, 'Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, but since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels (like coal, oil, and gas), which produces heat-trapping gases.1')}>Link 1</a>
-              <a onClick={(event) => handleLinkClick(event, 'We have a team of developers focused on creating Android and iOS App and  UI/UX Design, it works on Android or iOS multi platform')}>App Development 2</a>
-              <a onClick={(event) => handleLinkClick(event, 'We also work on UX/UI, based on user requirements we prepare the best design that looks good and is attractive')}>UI/UX Design 3</a>
-              <a onClick={(event) => handleLinkClick(event, 'We provide the best digital marketing service possible allows a company to grow its business and improve the recognition of its brand')}>Digital Marketing 4</a>
+              <a onClick={(event) => handleLinkClick(event, 'Requirement gathering is the first phase where you collect and document user requirements. This process guides the development of several important documents like the Software Requirement Specification (SRS) or product specification, a Use Case document, and a Requirement Traceability Matrix document')}>Requirement</a>
+              <a onClick={(event) => handleLinkClick(event, 'Design is the phase where you elaborate the original plan and vision into a software design document (SDD). This includes system design, programming language, templates, platform to use, and application security measures. A prototype model is often developed in this phase to visualize the product and make changes without having to rewrite code.')}>Design</a>
+              <a onClick={(event) => handleLinkClick(event, 'The deployment phase is the final stage of the Software Development Life Cycle (SDLC) where the developed software is released to the production environment and made available to the end-users. This phase involves planning, coordinating, and executing the deployment of the software to ensure a smooth transition from the development environment to the production environment.')}>Development</a>
+              <a onClick={(event) => handleLinkClick(event, 'At RS-Tech, we understand the importance of a successful deployment phase. Our team of experts follows a structured approach to ensure a smooth transition from development to production. We use the latest tools and technologies to automate the deployment process, ensuring faster and more reliable deployments. Our team works closely with stakeholders to ensure a smooth transition and minimize disruptions. We also provide continuous monitoring and maintenance to ensure the software continues to meet the required standards.')}>Deployment</a>
             </div>
 
             <div className="main" style={{ maxWidth: "25" }}>
+              <h4 style={{ textAlign: "center" }}>How we get things done</h4>
               <p>{mainText}</p>
             </div>
 
             <div className="right">
-              <h2 className="about">About</h2>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <h3 className="about">RS-Tech Approach</h3>
+              <p style={{ fontSize: "10px" }}>Structured deployment with automation, continuous monitoring, and stakeholder collaboration for seamless transitions from development to production.</p>
             </div>
           </div>
 
@@ -180,8 +194,6 @@ function Home() {
         </div>
 
         {/* About Sectiong */}
-
-
 
         <div class="header">
           <h1>Reliable Digital Marketing Partners:</h1>
@@ -208,34 +220,14 @@ function Home() {
             <img src="https://assets.codepen.io/2301174/icon-calculator.svg" alt="" />
           </div>
         </div>
-        <div class="row2-container">
-          <img style={{ width: "20%" }} src={ai} />
+      
+        <div className="row2-container">
+          <img className="aimage" style={{ width: "20%" }} src={ai} />
         </div>
         <div className="hr">
           <hr />
         </div>
-
-        <div className="technology">
-          <h1>We work on all these technologies :</h1>
-          <h4>and try to provide the best services.</h4>
-        </div>
-
-        <div className="techno">
-          <div style={{ display: "flex" }} ><img className="angular" src={angular} alt="" /><h5>AngularJs</h5></div>
-          <div style={{ display: "flex" }}> <img className="react" src={react} alt="" /><h5>React</h5></div>
-          <div style={{ display: "flex" }}> <img className="nestjs" src={nestjs} alt="" /><h5>NextJS</h5></div>
-          <div style={{ display: "flex" }}> <img className="typescript" src={typescript} alt="" /> <h5>TypeScript</h5></div>
-          <div style={{ display: "flex" }} ><img className="angular" src={docker} alt="" /><h5>Docker</h5></div>
-          <div style={{ display: "flex" }}> <img className="express" src={express} alt="" /><h5>Express</h5></div>
-          <div style={{ display: "flex" }}> <img className="nestjs" src={java} alt="" /><h5>java</h5></div>
-          <div style={{ display: "flex" }}> <img className="typescript" src={wordpress} alt="" /> <h5>Wordpress</h5></div>
-          <div style={{ display: "flex" }} ><img className="angular" src={nodejs} alt="" /><h5>NodeJS</h5></div>
-          <div style={{ display: "flex" }}> <img className="react" src={mongoDB} alt="" /><h5>MongoDB</h5></div>
-          <div style={{ display: "flex" }}> <img className="nestjs" src={friebase} alt="" /><h5>Firebase</h5></div>
-          <div style={{ display: "flex" }}> <img className="typescript" src={SQL} alt="" /> <h5>SQL</h5></div>
-
-        </div>
-
+        <Success />
       </div>
     </>
   );

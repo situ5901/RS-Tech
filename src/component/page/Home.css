@@ -30,7 +30,7 @@
     text-align: justify;
     text-justify: inter-word;
   }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 1220px) {
     .columns {
       width: 100%; 
     }
@@ -218,16 +218,15 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 620px) {
+  @media screen and (max-width: 1220px)  {
   /* For mobile phones: */
   .menu, .main, .right {
     width: 100%;
   }
 }
 .navmenu{
-  margin-left: 30px;
   margin-top: 40px;
-  margin-right: 30px;
+  margin: 20px;
 }
 
 
@@ -421,15 +420,72 @@ h2 {
   margin-right: 60px;
   grid-template-columns: repeat(3,1fr);
   grid-template-columns: auto auto auto auto;
+  margin-top: 90px;
   grid-template-rows: 150px 150px;
-  margin-top: 120px;
+  color: whitesmoke;
   column-count: 4;
-  column-gap: 210px;
+  column-gap: 190px;
  
 }
 
+@media only screen  and (max-width:1320px){
+  .row2-container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  .techno{
+     display: inline;
+   }
+ 
+  .angular{
+     display: flex; /* Add this to enable flexbox */
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+   }
+ 
+  .react{
+     display: flex; /* Add this to enable flexbox */
+     width: 100%;
+     justify-content: center;
+     margin-top: 80px;
+     align-items: center;
+     text-align: center;
+   }
+ 
+  .nestjs{
+     display: flex; /* Add this to enable flexbox */
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+   }
+ 
+  .typescript{
+     display: flex; /* Add this to enable flexbox */
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     row-gap: 20px; /* Add this to set the row gap */
+   }
+ 
+ }  
+
+.tech{
+  background-color: #01091b;
+  border-radius: 10px;
+  margin: 20px;
+}
+
 .technology{
-  margin-top: 40px;
+  color: whitesmoke;
   align-items: center;
   text-align: center;
 }
@@ -462,4 +518,213 @@ h2 {
   height: 55px;
   width: 55px;
   margin-top: -15px;
+}
+
+.whyrstech{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.brand{
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.design{
+  height: 180px;
+  border-radius: 10px;
+  width: 280px;
+  background-color:red;
+  background-image: url("https://cdn.corporatefinanceinstitute.com/assets/strategic-planning.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.development{
+  height: 180px;
+  border-radius: 10px;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 280px;
+  background-image: url("https://www.mypressplus.com/wp-content/uploads/2022/08/designer-work-2048x1470-1.jpg");
+}
+
+.marketing{
+  height: 180px;
+  border-radius: 10px;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 280px;
+  background-image: url("https://www.starkcloud.com/hubfs/Desarrollo%20de%20Software%20a%20Medida%20vs.%20Soluciones%20Preconstruidas.webp");
+
+}
+
+.brandid{
+  height: 180px;
+  border-radius: 10px;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 280px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3y8qtAvn4jtXStzLnJZ0gLOpng1rtfm_9Ig&s");
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .brand{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .design{
+    width: 100%;
+    padding: 20px;
+    
+  }
+
+  .development{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .marketing{
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .brandid{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+}
+
+
+@media only screen and (max-width) {
+  .techno{
+    display: inline;
+  }
+
+  .ang{
+    width: 100%;
+  }
+  .rea{
+    width: 100%;
+    margin-top: 80px;
+  }
+}
+
+.modernise{
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+  text-align: center;
+  margin: 20px;
+  align-items: center;
+}
+.modernise1{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.modernise2{
+  width: 100%;
+  
+}
+.moderniseimg1{
+  border-radius: 50px;
+}
+@media only screen and (max-width: 1220px) {
+  .modernise {
+    display: block;
+   
+  }
+  .modernise1{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 20px;
+    
+  }
+.modernise2{
+  height: 50%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: inline;
+}
+.moderniseimg1 {
+  width: 100%;
+  margin: 20px auto; /* add auto to center horizontally */
+  display: flex; /* change to block instead of inline */
+  text-align: center; /* add this to center the image horizontally */
+}
+}
+.why-organization{
+  justify-content: center;
+  text-align: center;
+}
+.why-org{
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  background-color:#01091b;
+  text-align: center;
+  margin: 20px;
+  border-radius: 20px;
+}
+.bussimag{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  border-radius: 20px;
+  height: 15rem;
+  box-shadow:3px 3px 6px whitesmoke;
+}
+.why-one{
+  margin: 20px;
+  justify-content: center;
+  
+}
+@media only screen and (max-width: 1220px) {
+ .row2-container{
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+ } 
+ .hr{
+  overflow: hidden;
+  margin-top: -29px;
+ }
+ .aimage{
+  justify-content: center;
+ }
+}
+
+.row2-container{
+  display: flex;
 }

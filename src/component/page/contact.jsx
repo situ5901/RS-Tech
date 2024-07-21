@@ -50,13 +50,13 @@ function Contact() {
             <h3 className="title-contact">Let's get in touch</h3>
             <p className="text">
 
-              Do you have any questions, comments or need a project based solution? Our team provides the best IT services 24/7.  Whether you need help with project support services, we are here to listen.
-            </p>a
+              Do you have any questions, comments or need a project based solution? Our team provides the Best Solution 24/7.Whether you need help with project support services, we are here to listen.
+            </p>
             <div className="information">
               <svg xmlns="http://www.w3.org/2000/svg" width="23" style={{ marginTop: "-15" }} height="25" fill="#01091b" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                 <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
               </svg> &nbsp;
-              <p style={{ display: 'inline-block' }}>92 Cherry Drive Uniondale, NY 11553</p>
+              <p style={{ display: 'inline-block' }}>Surya Nagar Hisar,Haryana 125001</p>
             </div>
             <div className="information">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" style={{ marginTop: "-15", marginLeft: "1" }} height="28" fill="#01091b" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">

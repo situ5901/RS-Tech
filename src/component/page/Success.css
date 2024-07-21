@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainm {
+    width: 100%;
+    /* background-color:#91C7F3; */
+    /* background: linear-gradient(red, orange, yellow, green, blue, indigo, violet); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.mainm2 {
+    display: block;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fivem {
+    display: flex;
+}
+
+.fourm {
+    display: flex;
+    margin-left: 48px;
+}
+
+.threem {
+    display: flex;
+    margin-left: 121px;
+}
+
+.twom {
+    display: flex;
+    margin-left: 194px;
+}
+
+.onem {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.successmanimg {
+    height: 170px;
+    width: 140px;
+
+}
+.mensuccess{
+width: 100%;
+display: flex;
+justify-content: center;
+
+}
+
+.onema {
+    height: 100px;
+    width: 140px;
+    background-color: whitesmoke;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    box-shadow: 25px 25px 25px rgb(43, 37, 37);
+    transition: transform 1s;
+}
+
+.onema:hover {
+    background-color: #01091b;
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+
+.twoma {
+    height: 110px;
+    width: 170px;
+    background-color: whitesmoke;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    box-shadow: 25px 25px 25px rgb(43, 37, 37);
+    transition: transform 1s;
+}
+
+.twoma:hover {
+    background-color: #01091b;
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+
+.threema {
+    height: 120px;
+    width: 180px;
+    background-color: whitesmoke;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    box-shadow: 25px 25px 25px rgb(43, 37, 37);
+    transition: transform 1s;
+}
+
+.threema:hover {
+    background-color: #01091b;
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+
+.mainm3 {
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    text-align: justify;
+}
+
+.textm {
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.mulcard{
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media only screen and (max-width: 1220px) {
+    .mainm {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    .mainm2 {
+        width: 100%;
+        display: flex;
+        /* Add this line */
+        justify-content: center;
+    }
+
+    .mulcard {
+        width: 100%;
+        display: inline;
+        /* Change this to flex */
+        margin-left: 50%;
+        margin-right: 50%;
+        justify-content: center;
+        /* Add this line */
+        align-items: center;
+        /* Add this line */
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    .mainm3 {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 1220px){
+    .onem{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+   
+}
+.test{
+    justify-content: center;
+    display: block;
+    align-items: center;
+    margin: 10px;
+}

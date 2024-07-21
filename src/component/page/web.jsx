@@ -1,13 +1,12 @@
-import React from 'react';
-import "./web.css";
-import under from '../assest/under.png';
-
-function webdevelopment() {
+import React from 'react'
+import image from '../assest/under.png'
+import "./web.css"
+function web() {
   return (
-    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
-      <img style={{ width: "550px", height: "350px" }} src={under} alt="" />
+    <div className='main'>
+      <img src={image} alt="" />
     </div>
   )
 }
 
-export default webdevelopment;
+export default web

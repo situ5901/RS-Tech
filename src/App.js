@@ -16,9 +16,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import axios from "axios"
 import { useEffect, useState } from 'react';
-
-
-
+import Footer from './component/page/Footer.jsx';
 
 
 
@@ -113,9 +111,9 @@ function App() {
 
       </Routes>
 
-
+    <Footer/>
     </>
-  );
+  )
 }
 
-export default App;
+export default App

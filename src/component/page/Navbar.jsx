@@ -13,19 +13,19 @@ export const Navbar = () => {
   let greeting = '';
   
   if(currDate >=1 && currDate <=12){
-    greeting = 'Good Morning';
+    greeting = 'Good Morning 🥰';
     cssStyle.color = 'yellow'
     
   }else if(currDate >=12 && currDate <=16){
-    greeting = 'Good Afternoon';
+    greeting = 'Good Afternoon 🥵';
     cssStyle.color = 'lightgreen';
   }else if(currDate >=16 && currDate <=19){
-    greeting = 'Good Evening';
+    greeting = 'Good Evening 😌';
     cssStyle.color = 'cyan';
   }
   
   else {
-    greeting = 'Good Night';
+    greeting = 'Good Night 🌜';
     cssStyle.color = '#228cdc';
   }
 
@@ -49,7 +49,7 @@ export const Navbar = () => {
         </li>
         
         <li>
-          <NavLink to="/Services">Services</NavLink>
+          <NavLink to="/Services">Technoloy</NavLink>
         </li>
 
         <li>

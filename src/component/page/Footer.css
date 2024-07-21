@@ -1,0 +1,11 @@
+.footer {
+  position: sticky;
+  width: 100%;
+  height: 50px;
+  background-color: #01091b;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
