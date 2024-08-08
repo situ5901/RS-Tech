@@ -1,0 +1,34 @@
+.flax{
+    display: flex;
+    margin: 30px;
+}
+.one-flax{
+    width: 50%;
+    justify-content: center;
+    text-align: justify
+}
+.two-flax{
+    width: 80%;
+    justify-content: center;
+}
+@media only screen and (max-width: 1220px){
+    .flax{
+        display: block;
+    }
+    .one-flax{
+        width: 100%;
+        justify-self: center;
+        height: 100%;
+    }
+    .two-flax{
+        width: 100%;
+        height: 100%;
+        
+    }
+}
+.one-flax{
+    margin-top: 25px;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+}

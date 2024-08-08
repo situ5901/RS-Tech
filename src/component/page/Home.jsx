@@ -6,22 +6,12 @@ import four from '../assest/4.jpg'
 import five from '../assest/5.jpg'
 import { NavLink } from "react-router-dom";
 import ai from '../assest/ai.png'
-import angular from '../assest/angular.png'
 import "./Home.css";
-import react from '../assest/react.png'
-import nestjs from '../assest/nestjs.png'
-import typescript from '../assest/typescript.png'
-import docker from '../assest/docker.png'
-import express from '../assest/express.png'
-import java from '../assest/java.png'
-import wordpress from '../assest/wordpress.png'
-import nodejs from '../assest/nodejs.png'
-import mongoDB from '../assest/mongoDB.png'
-import buss from '../assest/buss.jpg'
-import friebase from '../assest/friebase.png'
-import SQL from '../assest/SQL.png'
 import moderniseimg1 from '../assest/moderniseimg1.jpg'
 import Success from "./Success";
+import Flax from "./Flax";
+import WeWorkon from "./WeWorkon";
+
 function Home() {
 
 
@@ -227,7 +217,13 @@ function Home() {
         <div className="hr">
           <hr />
         </div>
+        <div className="failer">
         <Success />
+        <hr />
+        <Flax/>
+        <hr />
+        <WeWorkon/>
+        </div>
       </div>
     </>
   );

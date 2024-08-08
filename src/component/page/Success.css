@@ -10,6 +10,7 @@
     /* background: linear-gradient(red, orange, yellow, green, blue, indigo, violet); */
     display: flex;
     justify-content: center;
+    border-radius: 20px;
     align-items: center;
     text-align: center;
     gap: 10px;
@@ -71,12 +72,31 @@ justify-content: center;
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     box-shadow: 25px 25px 25px rgb(43, 37, 37);
     transition: transform 1s;
 }
 
 .onema:hover {
+    background-color: #01091b;
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+.lastm-succcess{
+    background-color: rgb(2, 68, 2);
+    color: whitesmoke;
+    height: 100px;
+    width: 140px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 25px 25px 25px rgb(43, 37, 37);
+    transition: transform 1s;
+}
+.lastm-succcess:hover{
     background-color: #01091b;
     color: whitesmoke;
     transform: scale(1.1);
@@ -190,3 +210,5 @@ justify-content: center;
     align-items: center;
     margin: 10px;
 }
+
+
