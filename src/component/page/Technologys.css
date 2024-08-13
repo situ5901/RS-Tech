@@ -1,0 +1,40 @@
+.cant {
+    display: flex;
+    padding: 20px;
+    
+}
+
+.left {
+    height: 450px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+    grid-template-rows: repeat(4, 1fr); /* 4 equal-height rows */
+    gap: 10px; /* Optional: adds space between grid items */
+    border-radius: 20px 0 0 20px; /* Corrected border-radius */
+}
+
+.sit {
+    height: 450px;
+    padding: 20px;
+    width: 50%;
+    /* Add any additional styles for the .sit section here */
+}
+
+.one {
+    background-color: white; /* For visibility */
+    border: 1px solid #ccc; /* Optional: for borders around each div */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #333;
+    border-radius: 20px;
+    /* Add more styles as needed */
+}
+.text{
+
+    text-align: center;
+    
+    
+}

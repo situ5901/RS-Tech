@@ -9,8 +9,8 @@ import ai from '../assest/ai.png'
 import "./Home.css";
 import moderniseimg1 from '../assest/moderniseimg1.jpg'
 import Success from "./Success";
-import Flax from "./Flax";
-import WeWorkon from "./WeWorkon";
+import Technologys from "./Technologys";
+
 
 function Home() {
 
@@ -220,9 +220,7 @@ function Home() {
         <div className="failer">
         <Success />
         <hr />
-        <Flax/>
-        <hr />
-        <WeWorkon/>
+        <Technologys/>
         </div>
       </div>
     </>
