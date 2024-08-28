@@ -36,7 +36,7 @@ function Success() {
                </div>
                 <div className="mainm3">
                     <div className='textm'>
-                    <h1>RS-Tech</h1>
+                    <h1 style={{fontWeight:'bold'}}>RS-Tech</h1>
                         nesciunt itaque neque illo, in nulla aliquam explicabo numquam voluptatum? Dolor atque repellendus eveniet molestias veniam dolores quaerat excepturi molestiae exercitationem ex, corrupti facilis earum repellat fugiat vitae doloremque, dolorem suscipit iusto facere inventore mollitia? Corrupti mollitia omnis explicabo quo fugiat iure? Repellendus nostrum cumque eum consectetur eaque voluptatibus libero quas eveniet, laborum repellat unde omnis quia rem corporis quibusdam iure eligendi velit odio. Obcaecati itaque quidem temporibus quisquam inventore amet.
                     </div>
                 </div>

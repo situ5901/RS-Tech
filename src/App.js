@@ -17,6 +17,9 @@ import Modal from 'react-bootstrap/Modal';
 import axios from "axios"
 import { useEffect, useState } from 'react';
 import Footer from './component/page/Footer.jsx';
+import PPC from './component/page/PPC.jsx';
+import SEO from './component/page/SEO.jsx';
+import SMM from './component/page/SMM.jsx';
 
 
 
@@ -108,7 +111,9 @@ function App() {
         <Route path="/Design" element={<Design />} />
         <Route path="/Appdevelopment" element={<Appdevelopment />} />
         <Route path="/DigitalMarketing" element={<Digitalmarketing />} />
-
+        <Route path="/ppc" element={<PPC />} />
+        <Route path="/SEO" element={<SEO/>}/>
+        <Route path="/SocialMedia" element={<SMM />} />
       </Routes>
 
     <Footer/>

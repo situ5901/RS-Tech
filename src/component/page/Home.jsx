@@ -192,21 +192,27 @@ function Home() {
           <p>Digital marketing involves promoting products or services through digital channels like social media and email.</p>
         </div>
         <div class="row1-container">
-          <div class="box box-down cyan">
-            <h2>PPC</h2>
-            <p>advertising is a digital marketing model where advertisers pay for each ad click.</p>
-            <img src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt="" />
-          </div>
+            <div class="box box-down cyan">
+              <h2>PPC</h2>
+              <NavLink to="PPC" style={{ textDecoration: 'none' }}>
+              <p>advertising is a digital marketing model where advertisers pay for each ad click.</p>
+              </NavLink>
+              <img src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt="" />
+            </div>
 
           <div class="box red" style={{ borderRadius: "10px" }} >
             <h2>SEO</h2>
+            <NavLink to="seo" style={{ textDecoration: 'none' }}s>
             <p>we have a team to work on Optimizing website visibility in search engines.</p>
+            </NavLink>
             <img src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="" />
           </div>
 
           <div class="box box-down blue">
             <h2>SMM</h2>
+            <NavLink to="SocialMedia" style={{ textDecoration: 'none' }}>
             <p>Boost Your Online Presence | Effective Social Media Management Solutions</p>
+            </NavLink>
             <img src="https://assets.codepen.io/2301174/icon-calculator.svg" alt="" />
           </div>
         </div>

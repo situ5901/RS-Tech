@@ -1,0 +1,38 @@
+.webmain{
+    display: flex;
+    padding: 20px;
+}
+.webone{
+    height: 420px;
+    width: 50%;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.webtwo{
+    height: 420px;
+    width: 50%;
+}
+
+
+@media only screen  and (max-width:1320px){
+   .webmain{
+    display: inline;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+   }
+   .webone{
+    width: 100%;
+    padding: 20px;
+    
+   }
+   .webtwo{
+    width: 100%;
+    margin-top: 50px;
+   }
+   
+  }
+  

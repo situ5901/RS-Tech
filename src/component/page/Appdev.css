@@ -1,0 +1,30 @@
+.app-main{
+    display: flex;
+}
+.appone{
+    width: 50%;
+    padding: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+.apptwo{
+    width: 50%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.appmaintwo{
+    display: flex;
+    padding: 20px;
+}
+
+.sec{
+    width: 50%;
+}
+.sectext{
+    width: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 20px;
+}
