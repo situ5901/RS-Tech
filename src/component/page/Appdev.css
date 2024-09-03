@@ -1,30 +1,418 @@
-.app-main{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.jeetmain{
+    width: 100%;
+    /* background-color: aquamarine; */
     display: flex;
-}
-.appone{
-    width: 50%;
-    padding: 20px;
-    text-align: justify;
-    text-justify: inter-word;
-
-}
-.apptwo{
-    width: 50%;
-    padding: 20px;
     justify-content: center;
     align-items: center;
 }
-.appmaintwo{
+.jeetone{
+    width: 60%;
     display: flex;
-    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.jeetitem{
+    width: 651px;
+    height: 403px;
+    /* background-color: aliceblue; */
+}
+.jeeth1{
+    font-family: sentient ;
+    font-size: 72px;
+    font-weight: bolder;
+    text-align: left;
+}
+.jeetpara{
+    font-family: Lato;
+    height: 54px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    font-size: 18px;
+}
+.jeetbtn{
+    display: flex;
+    text-align: left;
+    gap: 30px;
+}
+.jeettwo{
+    background-color:#227B94;
+    width: 593px;
+    height: 470px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile{
+    /* background-color: white; */
+    width: 262px;
+    height: 422px;
+    border-radius: 45px;
 }
 
-.sec{
-    width: 50%;
+@media (max-width: 1220px) {
+    .jeetmain {
+        display: inline;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
-.sectext{
-    width: 50%;
+@media (max-width: 1220px){
+    .jeetone{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 10px;
+    }
+    .jeetitem h2{
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .jeetpara{
+        font-size: 0.9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+    }
+    .jeetbtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .jeettwo{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .mobile img{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.jeetsecond{
+    width: 100%;
+    height: 299px;
+    background-color:#14213D ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondone{
+    width: 30%;
+    height: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondtext{
+    width: 270px;
+    height: 144px;
+}
+.secondh3{
+    font-family: Sentient;
+    font-weight: 700;
+    line-height: 47.79px;
+    text-align: center;
+    font-size: 47.79px;
+    color: white;
+}
+
+.secondtwo{
+    /* background-color: red; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.box1{
+    width: 263px;
+    height: 259px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.secondpara{
+    width: 230px;
+    height: 140px;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 16px;
+    color: #14213D;
     text-align: justify;
-    text-justify: inter-word;
+}
+.mainprofile{
+    width: 100%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+}
+.profile{
+    width: 70px;
+    height: 70px;
+    font-weight: 600;
+    font: inter;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+.pro{
+    margin-top: 10px;
+    line-height: 6px;
+}
+
+@media (max-width: 1220px) {
+ .jeetsecond{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+   }
+  }
+  @media (max-width: 1220px){
+    .secondone{
+        width: 100%;
+        background-color:#14213D ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .secondh3{
+        font-size: 1.5rem;
+    }
+    .secondtwo{
+        width: 100%;
+        background-color:#14213D ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .box1{
+        width: 263px;
+        height: 259px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 10px;
+    }
+  }
+/* section3jeet page css */
+
+.section3jeet{
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3one{
+    width: 50%;
     padding: 20px;
+}
+.section3h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #14213D;
+}
+.sectioncard{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.card1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.card2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-left: 150px;
+}
+.card3{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.card4{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-left: 150px;
+}
+.section3two{
+    /* background-color: darkgray; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.twomain{
+    width: 50%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.card5{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: red;
+}
+.card6{
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: yellowgreen;
+}
+.twomain2{
+    width: 50%;
+    /* background-color:whitesmoke; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card7{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(255, 0, 179);
+}
+
+@media (max-width: 1220px){
+    .section3jeet{
+        background-color: whitesmoke;
+        height: auto;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+@media (max-width: 1220px){
+    .section3one{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        /* background-color: aqua; */
+    }
+    .sectioncard{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: blueviolet; */
+    }
+}
+@media (max-width: 1220px){
+    .card2{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+        margin-left: 0;
+    }
+    .card4{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 1220px){
+    .section3two{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        /* background-color: pink; */
+        gap: 20px;
+    }
+    .card5{
+        height: 250px;
+        width: 250px;
+        border-radius: 20px;
+        background-color: red;
+}
+}
+@media (max-width: 1220px){
+    .twomain{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 70px;
+        /* background-color: blue; */
+        padding: 10px;
+    }
+}
+.buttommain{
+    /* background-color: blue; */
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttomcard{
+    background-color:#01091B;
+    color: white;
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
