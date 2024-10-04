@@ -30,7 +30,7 @@ function App() {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setShow(true);
-    }, 3000); // show the modal after 2 seconds
+    }, 1000); // show the modal after 2 seconds
     return () => clearTimeout(timeoutId);
   }, []);
 
@@ -39,7 +39,7 @@ function App() {
 
 
   useEffect(() => {
-    axios.get('http://127.0.0.1:3001/situ')
+    axios.get('http://localhost:3001/popup')
       .then(response => {
         setpop(response.data); // Update show state with response data
       })
