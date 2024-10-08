@@ -30,7 +30,7 @@ function App() {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setShow(true);
-    }, 1000); // show the modal after 2 seconds
+    }, 3000); // show the modal after 2 seconds
     return () => clearTimeout(timeoutId);
   }, []);
 
