@@ -60,7 +60,7 @@ function Appdev()  {
             <div className="mainprofile">
             <div className="profile"></div>
             <div className='pro'>
-            <h5>Raman</h5>
+            <h5>Parveen</h5>
             <p style={{fontSize:"12px",fontWeight:"400"}}>Webflow Developer</p>
             </div>
             </div>
@@ -72,7 +72,7 @@ function Appdev()  {
             <div className="mainprofile">
             <div className="profile"></div>
             <div className='pro'>
-            <h5>Raman</h5>
+            <h5>Sukhbir</h5>
             <p style={{fontSize:"12px",fontWeight:"400"}}>Webflow Developer</p>
             </div>
             </div>
