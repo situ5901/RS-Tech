@@ -7,7 +7,7 @@
     0% {
         background-position: 0% 50%;
     }
-
+commonly
     50% {
         background-position: 100% 50%;
     }
@@ -82,16 +82,13 @@
 
 }
 
-.Commonly{
-    padding: 10px;
-}
-
-.Commonly {
-    margin: 20px;
+.commonly{
+    padding: 20px;
 }
 
 .cardContainer {
     display: flex;
+    padding: 10px;
     flex-wrap: wrap; 
     justify-content: space-between; 
 }

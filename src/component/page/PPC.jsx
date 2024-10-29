@@ -37,12 +37,32 @@ function PPC() {
       <div className="commonly">
         <h2>What PPC Involves:</h2>
         <div className="cardContainer">
-          {['Keyword Research', 'Ad Creation', 'Landing Pages', 'Budgeting', 'Bidding Strategies', 'Targeting', 'Analytics', 'Audience Segmentation'].map((item, index) => (
-            <div className="cardOne" key={index}>
-              <h5>{item}</h5>
-            </div>
-          ))}
+          <div className="cardOne">
+            <h5>Keyword Research</h5>
+          </div>
+          <div className="cardOne">
+            <h5>Ad Creation</h5>
+          </div>
+          <div className="cardOne">
+            <h5>Landing Pages</h5>
+          </div>
+          <div className="cardOne">
+            <h5>Budgeting:</h5>
+          </div>
+          <div className="cardOne">
+            <h5>Bidding Strategies</h5>
+          </div>
+          <div className="cardOne">
+            <h5>Targeting</h5>
+          </div>
+          <div className="cardOne">
+            <h5>Analytics</h5>
+          </div>
+          <div className="cardOne">
+            <h5>Audience Segmentation</h5>
+          </div>
         </div>
+
       </div>
 
       {/* PPC Service Section */}
