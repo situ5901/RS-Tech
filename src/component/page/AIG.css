@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;  
+}
+
+.aig-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #121212; /* Dark background for AIG component */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); /* Optional: Subtle shadow for depth */
+}
+
+.aig-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.aig-header h1 {
+    font-size: 3rem; /* Adjust the size as needed */
+    background: linear-gradient(90deg, #ff007f, #ff8c00, #ff007f); /* Gradient colors */
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* This makes the text transparent so that the gradient shows through */
+    animation: gradientAnimation 3s ease infinite; /* Animation properties */
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.aig-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.aig-input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px; /* Max width for input area */
+    background: #1e1e1e; /* Darker input area */
+    border-radius: 30px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    padding: 10px;
+}
+
+input {
+    flex: 1;
+    border: 2px solid #ff9800; /* Accent border color */
+    border-radius: 30px; /* Rounded corners */
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    background: #1e1e1e; /* Dark background for input */
+    color: #fff; /* White text for input */
+}
+
+input::placeholder {
+    color: #bbb; /* Placeholder color */
+}
+
+input:focus {
+    border-color: #ffcc00; /* Lighter border on focus */
+}
+
+button {
+    border: none;
+    background: #ff9800; /* Accent button color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px; /* Rounded button */
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ffcc00; /* Lighter shade on hover */
+}
+
+button:disabled {
+    background: #aaa; /* Greyed out when disabled */
+}
+
+.aig-image-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.placeholder-container {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    width: 100%; /* Full width */
+    max-width: 600px; /* Optional: Max width for layout */
+}
+
+
+
+.placeholder-image {
+    width: 100px; /* Set a width for the placeholder image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Rounded corners */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.placeholder-text {
+    color: #bbb; /* Placeholder text color */
+    font-size: 1.2rem; /* Text size */
+    text-align: left; /* Align text to the left */
+}
+
+
+.generated-image {
+    width: auto; /* Maintain aspect ratio */
+    max-width: 90%; /* Set maximum width to 90% of the container */
+    max-height: 400px; /* Set a maximum height */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); /* Subtle shadow */
+    transition: transform 0.3s;
+}
+
+.placeholder {
+    color: #bbb; /* Placeholder text color */
+    font-size: 1.2rem; /* Larger placeholder text */
+    text-align: center;
+    padding: 20px;
+}
+
+.loading {
+    color: #ff9800; /* Loading text color */
+    font-size: 1.5rem; /* Larger loading text */
+}
+
+.aig-footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #bbb; /* Footer text color */
+    font-size: 0.9rem;
+}
