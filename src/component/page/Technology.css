@@ -1,6 +1,94 @@
-.image{
-    justify-content: center;
-    align-items: center;
+.ServiceONE{
     display: flex;
-    margin-top: 100px;
+    padding: 20px;
+    gap: 30px;
+}
+
+.SERONE {
+    width: 50%;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url(https://plugins-media.makeupar.com/smb/blog/post/2023-09-14/ad8cfa44-242d-4481-a39c-e46242cdde3f.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+.SERONE:hover {
+    transform: scale(1.05); 
+    opacity: 0.9;
+}
+
+
+
+
+
+.SERTWO{
+    width: 50%;
+    border-radius: 10px;
+    height: 200px;
+    background-image: url(https://rangiistudio.com/wp-content/uploads/2018/12/Image-to-PDF-Converter-PDF-to-Image-Converter-banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+.SERTWO:hover {
+    transform: scale(1.05); 
+    opacity: 0.9;
+}
+
+
+.SERTHREE {
+    width: 50%;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url(https://typetest.io/blog/images/2023-12-29-the-benefits-of-typing-tests-how-they-improve-your-skills.png.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+
+.SERTHREE:hover {
+    transform: scale(1.05); 
+    opacity: 0.9;
+}
+
+.SERP{
+    display: flex;
+}
+.servicetext1{
+    width: 25%;
+    text-align: center;
+}
+
+.servicetext2{
+    width: 15%;
+    text-align: center;
+}
+
+.servicetext2{
+    width:55%;
+    text-align: center;
+}
+.SERVHED{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    height: 450px;
+    background-color: #121141;
+}
+.SERVICEFREE{
+    width: 50%;
+    color: white;
+    margin-top: 90px;
+
+}
+
+.SERVICEFREETWO{
+    width: 50%;
 }

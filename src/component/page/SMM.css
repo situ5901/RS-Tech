@@ -1,15 +1,228 @@
-.smm-main{
+.smm-main {
     display: flex;
+    background-color: #012141;
 }
 
-.smmone{
+.smmone {
     width: 50%;
 }
 
-.smm-sec{
-    width: 50%;
+.smm-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    height: 100%;
+    /* Optional, adjust based on your layout */
 }
 
-.ssmm{
+.animationSMM {
+    font-size: 40px;
+    color: white;
+}
+
+.anmi {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.ssmm {
     padding: 20px;
+    margin-top: 120px;
+
+}
+
+.animationSMM span {
+    background: linear-gradient(90deg, red, yellow, green, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 100%;
+    animation: textGradient 5s ease infinite;
+}
+
+@keyframes textGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.SMMHR {
+    height: 6px;
+    width: 100%;
+    background: linear-gradient(90deg, red, yellow, green, blue);
+    background-size: 400% 100%;
+    animation: gradientAnimation 5s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.SEOSEOND {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.SEOTHREE {
+    display: flex;
+    padding: 20px;
+    background-color: #012141;
+    border-radius: 10px;
+}
+
+.SERTHREE1 {
+    width: 50%;
+    padding: 20px;
+    height: 400px;
+}
+
+.card-row {
+    display: flex;
+    gap: 20px;
+
+}
+
+.SERTHREE1 .card {
+    width: calc(50% - 10px);
+    /* Two cards per row */
+    height: 150px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.SERTHREE2 {
+    width: 50%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.SMMSITU {
+    padding: 20px;
+}
+
+
+.SERTHREE2TEXT span {
+    background: linear-gradient(90deg, red, yellow, rgb(154, 122, 213), blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 100%;
+    animation: textGradient 5s ease infinite;
+}
+
+
+@keyframes textGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.SMMFOREMAA{
+   padding: 20px;
+}
+
+
+.SMMFORE {
+    display: flex;
+    padding: 20px;
+  
+    border-radius: 10px;
+
+}
+
+.SMMFOREONE {
+    padding: 10px;
+    width: 50%;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.SMMFORETWO {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.SMMTEST span {
+    background: linear-gradient(90deg, red, rgb(1, 125, 51), blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 100%;
+    animation: textGradient 5s ease infinite;
+}
+
+
+@keyframes textGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }

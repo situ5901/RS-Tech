@@ -76,12 +76,17 @@
 
 .card img {
     width: 100%;
-    height: 200px;
+    height: 130px;
     object-fit: cover;
 }
 
+.HRHOME{
+  margin-top: 37px;
+}
 .card-content {
-    padding: 1rem;
+
+  margin-top: 10px;
+    text-align: justify;
 }
 
 .card-content h2 {

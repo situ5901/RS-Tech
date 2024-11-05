@@ -221,7 +221,7 @@ function Home() {
           <img className="aimage" style={{ width: "20%" }} src={ai} />
         </div>
         <div className="hr">
-          <hr />
+          <hr className="HRHOME" />
         </div>
         <div className="failer">
         <Success />

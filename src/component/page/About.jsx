@@ -8,7 +8,7 @@ function About() {
 
         <div className='about-one'>
           <h1 className='rs'>Company Overview</h1>
-          <p style={{ fontSize: "12px" }}>
+          <p style={{ fontSize: "14 px" }}>
             At <b>RS-Tech,</b> we are a team of passionate IT professionals dedicated to delivering innovative solutions that meet the evolving needs of our clients. Our mission is to provide cutting-edge technology services that empower businesses to succeed in today's fast-paced digital landscape.
 
             With a strong focus on <b>[specific areas of expertise, e.g., Web Development, App Development, Digital Marketing etc]</b>, we strive to build long-term relationships with our clients, understanding their unique challenges and developing tailored solutions that drive growth and efficiency.
@@ -17,7 +17,7 @@ function About() {
 
             Get in touch with us to learn more about our services and how we can help your business thrive in the digital age.</p>
           <h3>Our Story</h3>
-          <p style={{ fontSize: "12px" }}>Founded in 2024 by founder's Shivansh (Situ), RS-Tech was born out of a desire to We're starting from scratch with no employees and limited financial resources. This means we'll need to be creative, resourceful, and strategic in our approach to building our company. Some potential strategies to consider <ul> 
+          <p style={{ fontSize: "14px" }}>Founded in 2024 by founder's Shivansh (Situ), RS-Tech was born out of a desire to We're starting from scratch with no employees and limited financial resources. This means we'll need to be creative, resourceful, and strategic in our approach to building our company. Some potential strategies to consider <ul> 
             <li>Leverage freelance or contract workers to augment your skills and capacity</li>
             <li>Focus on low-cost, high-impact marketing and sales strategies, such as social media, content marketing, and networking
             </li>
