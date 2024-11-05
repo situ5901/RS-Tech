@@ -20,6 +20,7 @@ import Footer from './component/page/Footer.jsx';
 import PPC from './component/page/PPC.jsx';
 import SEO from './component/page/SEO.jsx';
 import SMM from './component/page/SMM.jsx';
+import JpgToPdfConverter from './component/page/JPGtoPDF.jsx'
 import AIG from './component/page/AIG.jsx';
 
 
@@ -123,6 +124,9 @@ function App() {
         <Route path="/SEO" element={<SEO/>}/>
         <Route path="/SocialMedia" element={<SMM />} />
         <Route path="/image-generator" element={<AIG/>}/>
+        <Route path="/JpgToPdfConverter" element={<JpgToPdfConverter/>}/>
+       
+        
       </Routes>
 
     <Footer/>

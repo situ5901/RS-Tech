@@ -20,6 +20,7 @@
     "framer-motion": "^11.2.10",
     "git": "^0.1.5",
     "http-proxy-middleware": "^3.0.3",
+    "jspdf": "^2.5.2",
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",

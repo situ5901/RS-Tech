@@ -41,6 +41,7 @@ const AIG = () => {
   return (
     <div className='aig-container'>
       <header className="aig-header">
+        
         <h1>AI Image Generator</h1>
       </header>
       <main className="aig-main">
@@ -67,7 +68,7 @@ const AIG = () => {
             <div className='placeholder-container'>
               <img
                 className='placeholder-image'
-                src="https://www.shutterstock.com/image-photo/close-photo-person-half-human-260nw-2469897933.jpg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTt53wrPQRInkv2Gx7bILYmsHI2M2K-p49gQ&s"
                 alt="Placeholder"
               />
               <div className='placeholder-text'>
@@ -86,7 +87,7 @@ const AIG = () => {
           <button
             type="button"
             className="btn btn-warning"
-            style={{ padding: '3px 8px', fontSize: '12px' }}
+            style={{ padding: '5px 36px', fontSize: '12px' }}
           >
             Download
           </button>

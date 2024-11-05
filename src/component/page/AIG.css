@@ -54,7 +54,7 @@ body {
     justify-content: center;
     gap: 10px;
     margin-bottom: 20px;
-    width: 100%;
+    width: 110%;
     max-width: 600px; /* Max width for input area */
     background: #1e1e1e; /* Darker input area */
     border-radius: 30px; /* Rounded corners */
@@ -119,7 +119,7 @@ button:disabled {
 
 
 .placeholder-image {
-    width: 100px; /* Set a width for the placeholder image */
+    width: 150px; /* Set a width for the placeholder image */
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Optional: Rounded corners */
     margin-right: 20px; /* Space between image and text */
