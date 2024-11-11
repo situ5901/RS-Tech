@@ -226,3 +226,52 @@
         background-position: 0% 50%;
     }
 }
+
+@media screen and (max-width: 620px) {
+    .smm-main {
+        display: block;
+        background-color: red;
+        margin-top: -130px;
+    }
+    .smmone {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+}
+
+@media screen and (max-width: 620px){
+    .SMMFOREMAA{
+        display: inline;
+        width: 100%;
+    }
+    .SMMFORE{
+        display: inline;
+    }
+    .SMMFOREONE{
+        width: 100%;
+        padding: 20px;
+        text-align: justify;
+    }
+    .SMMFORETWO{
+        width: 100%;
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 620px){ 
+.SERTHREE1{
+    display: inline;
+    width: 100%;
+}
+.card-row{
+    width: 100%;
+}
+.SEOTHREE{
+    display: block;
+}
+.SERTHREE2{
+    width: 100%;
+}
+}

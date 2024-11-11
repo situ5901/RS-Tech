@@ -13,24 +13,24 @@ function Success() {
                            <div className="mensuccess">
                            <img className='successmanimg' src={img} alt='' />
                            </div>
-                        </div>
-                        <div className="twom">
+                         </div>
+                         <div className="twom">
                             <div className="lastm-succcess">Successful</div>
-                        </div>
-                        <div className="threem">
+                         </div>
+                         <div className="threem">
                             <div className="onema">FAILURE</div>
                             <div className="onema">FAILURE</div>
-                        </div>
-                        <div className="fourm">
+                         </div>
+                         <div className="fourm">
                             <div className="onema">FAILURE</div>
                             <div className="onema">FAILURE</div>
                             <div className="onema">FAILURE</div>
-                        </div>
-                        <div className="fivem">
+                         </div>
+                         <div className="fivem">
                             <div className="twoma">FAILURE</div>
                             <div className="threema">FAILURE</div>
                             <div className="twoma">FAILURE</div>
-                        </div>
+                         </div>
                     </div>
                 </div>
                </div>

@@ -45,7 +45,7 @@
     width: 50%;
     height: 200px;
     border-radius: 10px;
-    background-image: url(https://typetest.io/blog/images/2023-12-29-the-benefits-of-typing-tests-how-they-improve-your-skills.png.jpg);
+    background-image: url(https://media.licdn.com/dms/image/v2/D5612AQHMNIVzs6dMFw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1711462575042?e=2147483647&v=beta&t=SbzygGYmxln748vamF_WAoRpRMpH0Ic7C-K_O7BiLjc);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -92,3 +92,21 @@
 .SERVICEFREETWO{
     width: 50%;
 }
+
+
+.Compiler {
+    width: 50%;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url();
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+.Compiler:hover {
+    transform: scale(1.05); 
+    opacity: 0.9;
+}
+

@@ -1,0 +1,36 @@
+.compiler-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .compiler-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .compiler-heading span {
+    background: linear-gradient(90deg, red, yellow, green, rgb(1, 1, 100));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 100%;
+    animation: textGradient 9s ease infinite;
+  }
+  
+  @keyframes textGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  

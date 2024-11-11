@@ -180,8 +180,7 @@ justify-content: center;
         width: 100%;
         display: inline;
         /* Change this to flex */
-        margin-left: 50%;
-        margin-right: 50%;
+      
         justify-content: center;
         /* Add this line */
         align-items: center;
@@ -201,6 +200,7 @@ justify-content: center;
         display: flex;
         width: 100%;
         justify-content: center;
+        background-color: red;
     }
    
 }
@@ -211,4 +211,29 @@ justify-content: center;
     margin: 10px;
 }
 
+@media screen and (max-width: 620px){
+    .mulcard{
+        background-color: red;
+        display: inline;
+    }
 
+ .mulcard{
+    width: 100%;
+ }
+ .fourm{
+    margin-left: 45;
+    margin-right: 45px;
+ }
+ .threem{
+    margin-right: 80px;
+    margin-left: 80px;
+ }
+ .onema{
+    font-size: 12px;
+ }
+ .twom{
+    margin-left: 30%;
+    margin-right: 30%;
+    
+ }
+}

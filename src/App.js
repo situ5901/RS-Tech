@@ -18,10 +18,13 @@ import axios from "axios"
 import { useEffect, useState } from 'react';
 import Footer from './component/page/Footer.jsx';
 import PPC from './component/page/PPC.jsx';
+import Compiler from "./component/page/Compiler.jsx"
 import SEO from './component/page/SEO.jsx';
 import SMM from './component/page/SMM.jsx';
 import JpgToPdfConverter from './component/page/JPGtoPDF.jsx'
 import AIG from './component/page/AIG.jsx';
+import QRcode from "./component/page/QRcode.jsx"
+import BG from "./component/page/BG.jsx"
 
 
 
@@ -124,8 +127,10 @@ function App() {
         <Route path="/SEO" element={<SEO/>}/>
         <Route path="/SocialMedia" element={<SMM />} />
         <Route path="/image-generator" element={<AIG/>}/>
+        <Route path="/Compiler" element={<Compiler/>}/>
         <Route path="/JpgToPdfConverter" element={<JpgToPdfConverter/>}/>
-       
+        <Route path="/QRcode" element={<QRcode/>}/>
+        <Route path="/BG" element={<BG/>}/>
         
       </Routes>
 

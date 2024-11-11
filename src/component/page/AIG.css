@@ -92,9 +92,7 @@ button {
     transition: background 0.3s;
 }
 
-button:hover {
-    background: #ffcc00; /* Lighter shade on hover */
-}
+
 
 button:disabled {
     background: #aaa; /* Greyed out when disabled */
