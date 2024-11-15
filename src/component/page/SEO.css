@@ -1,10 +1,289 @@
-.SEOMain{
+.SEOMain {
     display: flex;
-}
-.SEONE{
-    width: 50%;
+    height: 450px;
+    padding: 20px;
+    gap: 30px;
 }
 
-.SEOTWO{
+.SEOMAINONE {
     width: 50%;
+    margin-top: 100px;
+}
+
+.SEOMAINTWO {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.HRSEOTG{
+    margin-top: -40px;
+}
+.SEOSECOND{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.SEOSEC {
+    height: 250px;
+    background-color: #012141;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.SEOSEC h1 {
+    animation: topDown 1s ease forwards;
+    opacity: 0;
+}
+
+.SEOSEC p {
+    animation: leftRight 1s ease forwards;
+    opacity: 0;
+    animation-delay: 0.5s;
+}
+
+@keyframes topDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes leftRight {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.SEOSED {
+    height: 250px;
+    background-color: #012141;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.SEOSED h1 {
+    animation: topDown 1s ease forwards;
+    opacity: 0;
+}
+
+.SEOSED p {
+    animation: leftRight 1s ease forwards;
+    opacity: 0;
+    animation-delay: 0.5s;
+}
+
+@keyframes topDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes leftRight {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+.SEOSECE {
+    height: 250px;
+    background-color: #012141;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.SEOSECE h1 {
+    animation: topDown 1s ease forwards;
+    opacity: 0;
+}
+
+.SEOSECE p {
+    animation: leftRight 1s ease forwards;
+    opacity: 0;
+    animation-delay: 0.5s;
+}
+
+@keyframes topDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes leftRight {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
+.SEOSEDF {
+    height: 250px;
+    background-color: #012141;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.SEOSEDF h1 {
+    animation: topDown 1s ease forwards;
+    opacity: 0;
+}
+
+.SEOSEDF p {
+    animation: leftRight 1s ease forwards;
+    opacity: 0;
+    animation-delay: 0.5s;
+}
+
+@keyframes topDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes leftRight {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 480px){
+    .SEOMain{
+        display: inline;
+    }
+    .SEOMAINONE{
+        width: 100%;
+    }
+    .SEOMAINTWO{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 480px){
+    .SEOSECOND{
+        display: inline;
+        padding: 0;
+        
+    }
+    .SEOSEC{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .SEOSED{
+        width: 100%;
+    }
+    .SEOSECE{
+        width: 100%;
+    }
+    .SEOSEDF{
+        width: 100%;
+    }
+}
+.SEOTHREEMAIN{
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+}
+
+.SEROTHREEONE{
+   
+    width: 50%;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.SEROTHREETWO{
+    background-color: #012141;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+@media (max-width: 480px){
+    .SEOTHREEMAIN{
+        display: inline;
+    }
+    .SEROTHREEONE{
+        width: 100%;
+    }
+    .SEROTHREETWO{
+        width: 100%;
+    }
 }

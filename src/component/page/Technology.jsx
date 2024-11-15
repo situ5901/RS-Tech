@@ -31,16 +31,16 @@ function Technology() {
           </Link>
         </div>
         <div className="SERP">
-        <div className="servicetext1">
-          <p><b>AI Generate Iamge</b></p>
+          <div className="servicetext1">
+            <p><b>AI Generate Iamge</b></p>
+          </div>
+          <div className="servicetext2">
+            <p><b>JPG to PDF Converter</b></p>
+          </div>
+          <div className="servicetext3">
+            <p><b>QR Code Generatore</b></p>
+          </div>
         </div>
-        <div className="servicetext2">
-          <p><b>JPG to PDF Converter</b></p>
-        </div>
-        <div className="servicetext3">
-          <p><b>QR Code Generatore</b></p>
-        </div>
-      </div>
         <div className="ServiceONE">
           <Link to="/image-generator" className="Compiler">
 
@@ -52,7 +52,7 @@ function Technology() {
 
           </Link>
         </div>
-        
+
       </div>
 
 
