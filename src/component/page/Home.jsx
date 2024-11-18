@@ -38,7 +38,7 @@ function Home() {
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active h-50">
+            <div class="carousel-item active h-100">
               <img src={one} class="d-block w-100" alt="..." />
               <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
