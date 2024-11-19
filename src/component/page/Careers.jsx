@@ -117,30 +117,26 @@ function Careers() {
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
               </div>
               <div class="carousel-inner">
-                <a href="https://gphisar.ac.in/">
-                  <div class="carousel-item active">
-                    <img src={GPHIMG} class="d-block w-100" alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5 style={{ color: "black" }}>First slide label</h5>
-                      <p style={{ color: "black" }}>Some representative placeholder content for the first slide.</p>
-                    </div>
-                  </div>
-                </a>
-                <a href="http://funisland.co.in/"> <div class="carousel-item">
-                  <img src={FUN} class="d-block w-100" alt="..." />
+               <a href="https://gphisar.ac.in/">
+               <div class="carousel-item active">
+                  <img src={GPHIMG} class="d-block w-100" alt="..." />
                   <div class="carousel-caption d-none d-md-block">
-                    <h5 style={{ color: "black" }}>Second slide label</h5>
-                    <p style={{ color: "black" }}>Some representative placeholder content for the second slide.</p>
+                    <h5 style={{ color: "black" }}>First slide label</h5>
+                    <p style={{ color: "black" }}>Some representative placeholder content for the first slide.</p>
                   </div>
+                </div>
+               </a>
+               <a href="http://funisland.co.in/"> <div class="carousel-item">
+                  <img src={FUN} class="d-block w-100" alt="..." />
                 </div></a>
                 <a href="http://topdocuments.cyou/">
-                  <div class="carousel-item">
-                    <img src={TOP} class="d-block w-100" alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5 style={{ color: "black" }}>Third slide label</h5>
-                      <p style={{ color: "black" }}>Some representative placeholder content for the third slide.</p>
-                    </div>
+                <div class="carousel-item">
+                  <img src={TOP} class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 style={{ color: "black" }}>Third slide label</h5>
+                    <p style={{ color: "black" }}>Some representative placeholder content for the third slide.</p>
                   </div>
+                </div>
                 </a>
 
                 <a href="https://carondemand.in/">
