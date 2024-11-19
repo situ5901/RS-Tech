@@ -2,7 +2,7 @@ import React from 'react'
 import "./Careers.css"
 import MSME from "../assest/MSME.png"
 import FUN from "../assest/FUN.png"
-import GPHIMG from "../assest/GPH.png"
+import GPHIMG from "../assest/gph.png"
 import COD from "../assest/COD.jpg"
 import TOP from "../assest/TOP.png"
 function Careers() {
@@ -26,9 +26,9 @@ function Careers() {
                 <div className="CEO4">
 
                 </div>
-                <div className="CEO5">
+                {/* <div className="CEO5">
 
-               </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -55,35 +55,35 @@ function Careers() {
         <p>Our team is a dynamic blend of innovators, tech enthusiasts, and leaders <br /> dedicated to driving growth, delivering excellence, and creating impactful solutions for a brighter, tech-enabled future.</p>
       </div>
       <div className="OURMEMBERS">
-  <div className="OURFIRST">
-    <div className="OURMAIN"></div>
-    <div className="OURTEXT">
-      <h4>Sr.SDE</h4>
-      <p>Miss.Shagun Kumari</p>
-    </div>
-  </div>
-  <div className="OURFIRST2">
-    <div className="OURMAIN2"></div>
-    <div className="OURTEXT">
-      <h4>Jr.SDE</h4>
-      <p>Tony Thakral</p>
-    </div>
-  </div>
-  <div className="OURFIRST3">
-    <div className="OURMAIN3"></div>
-    <div className="OURTEXT">
-      <h4>Jr.SDE</h4>
-      <p>Sukhbir</p>
-    </div>
-  </div>
-  <div className="OURFIRST4">
-    <div className="OURMAIN4"></div>
-    <div className="OURTEXT">
-      <h4>Heading 4</h4>
-      <p>Subheading 4</p>
-    </div>
-  </div>
-</div>
+        <div className="OURFIRST">
+          <div className="OURMAIN"></div>
+          <div className="OURTEXT">
+            <h4>Sr.SDE</h4>
+            <p>Miss.Shagun Kumari</p>
+          </div>
+        </div>
+        <div className="OURFIRST2">
+          <div className="OURMAIN2"></div>
+          <div className="OURTEXT">
+            <h4>Sr.SDE</h4>
+            <p>Parveen Chouhan</p>
+          </div>
+        </div>
+        <div className="OURFIRST3">
+          <div className="OURMAIN3"></div>
+          <div className="OURTEXT">
+            <h4>Jr.SDE</h4>
+            <p>Sukhbir Mundlia</p>
+          </div>
+        </div>
+        <div className="OURFIRST4">
+          <div className="OURMAIN4"></div>
+          <div className="OURTEXT">
+            <h4>jr.SDE</h4>
+            <p>Tony thakral</p>
+          </div>
+        </div>
+      </div>
 
 
       <div className="MainCarreres">
@@ -117,16 +117,16 @@ function Careers() {
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
               </div>
               <div class="carousel-inner">
-               <a href="https://gphisar.ac.in/">
-               <div class="carousel-item active">
-                  <img src={GPHIMG} class="d-block w-100" alt="..." />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5 style={{ color: "black" }}>First slide label</h5>
-                    <p style={{ color: "black" }}>Some representative placeholder content for the first slide.</p>
+                <a href="https://gphisar.ac.in/">
+                  <div class="carousel-item active">
+                    <img src={GPHIMG} class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 style={{ color: "black" }}>First slide label</h5>
+                      <p style={{ color: "black" }}>Some representative placeholder content for the first slide.</p>
+                    </div>
                   </div>
-                </div>
-               </a>
-               <a href="http://funisland.co.in/"> <div class="carousel-item">
+                </a>
+                <a href="http://funisland.co.in/"> <div class="carousel-item">
                   <img src={FUN} class="d-block w-100" alt="..." />
                   <div class="carousel-caption d-none d-md-block">
                     <h5 style={{ color: "black" }}>Second slide label</h5>
@@ -134,24 +134,24 @@ function Careers() {
                   </div>
                 </div></a>
                 <a href="http://topdocuments.cyou/">
-                <div class="carousel-item">
-                  <img src={TOP} class="d-block w-100" alt="..." />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5 style={{ color: "black" }}>Third slide label</h5>
-                    <p style={{ color: "black" }}>Some representative placeholder content for the third slide.</p>
+                  <div class="carousel-item">
+                    <img src={TOP} class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 style={{ color: "black" }}>Third slide label</h5>
+                      <p style={{ color: "black" }}>Some representative placeholder content for the third slide.</p>
+                    </div>
                   </div>
-                </div>
                 </a>
 
-              <a href="https://carondemand.in/">
-              <div class="carousel-item">
-                  <img src={COD} class="d-block w-100" alt="..." />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5 style={{ color: "black" }}>Fourth slide label</h5>
-                    <p style={{ color: "black" }}>Some representative placeholder content for the fourth slide.</p>
+                <a href="https://carondemand.in/">
+                  <div class="carousel-item">
+                    <img src={COD} class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 style={{ color: "black" }}>Fourth slide label</h5>
+                      <p style={{ color: "black" }}>Some representative placeholder content for the fourth slide.</p>
+                    </div>
                   </div>
-                </div>
-              </a>
+                </a>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>

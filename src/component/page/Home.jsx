@@ -4,6 +4,7 @@ import two from '../assest/2.jpg'
 import three from '../assest/3.jpg'
 import four from '../assest/4.jpg'
 import five from '../assest/5.jpg'
+import six from  '../assest/Untitled design.png'
 import { NavLink } from "react-router-dom";
 import ai from '../assest/ai.png'
 import "./Home.css";
@@ -67,7 +68,7 @@ function Home() {
               </div>
             </div>
             <div class="carousel-item">
-              <img src={five} class="d-block w-100" alt="..." />
+              <img src={six} class="d-block w-100" alt="..." />
               <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>

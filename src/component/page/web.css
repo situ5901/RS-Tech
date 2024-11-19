@@ -1,38 +1,493 @@
-.webmain{
-    display: flex;
-    padding: 20px;
-}
-.webone{
-    height: 420px;
-    width: 50%;
-    color: black;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    text-justify: inter-word;
-}
-.webtwo{
-    height: 420px;
-    width: 50%;
-}
-
-
-@media only screen  and (max-width:1320px){
-   .webmain{
-    display: inline;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-   }
-   .webone{
+.webone {
     width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    
+
+}
+.webtextmain{
+    width: 50%;
+    height: 320px;
+    
+    text-align: left;
     padding: 20px;
     
-   }
-   .webtwo{
+}.webtextmain2 {
+    width: 50%;
+    height:320px;
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+
+}
+
+.webtextmain2 img {
+    width: 400px;
+    padding: 10px;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .webone{
+        display: block;
+    }
+    .webtextmain{
+        display: block;
+        width: 100%;
+    }
+    .webtextmain2{
+        display: block;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+    .webtextmain2 img{
+        width: 100%;
+        max-width: 100%;
+        
+    }
+    
+    }
+    
+
+.webtwo{
     width: 100%;
-    margin-top: 50px;
-   }
+    display: flex;
+    gap: 50px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.webthree{
+    background-color: #c0dad1;
+    padding: 10px;
+    width: 33%;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+}
+
+.webthree img {
+    width: 100%;
    
+    justify-content: center;
+    align-items: center;
+}
+
+.webfour{
+    background-color: #c0dad1;
+    padding: 10px;
+    width: 33%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.webfour img{
+    width: 100%;
+    max-width: 140px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+
+}
+.webfive {
+    background-color: #c0dad1;
+    padding: 10px;
+    width: 33%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; 
+}
+
+.webfive img {
+    width: 100%;       
+    max-width: 1000px;    
+    height: 180px;       
+}
+
+@media (max-width: 480px) {
+    .webtwo {
+        display: block;
+        background-color:#c0dad1 ;
+        width: 100%;
+    }
+    
+    .webthree, .webfour, .webfive {
+        width: 100%; 
+        display: block;
+    }
+    .webfour img, .webfive img {
+        width: 100%; 
+        max-width: 100%;
+    }
+    .webfive{
+        height: 440px;
+    }
+}
+.websix{
+    
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    background-color: white;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.webseven{
+    
+    background-color: #c0dad1;
+    padding: 10px;
+    width: 33%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.webseven img{
+    width: 100%;       
+    max-width: 1000px;    
+    height: 180px;
+}
+.webeight{
+    
+    background-color:  #c0dad1;
+    padding: 10px;
+    width: 33%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.webeight img{
+    width: 100%;       
+    max-width: 1000px;    
+    height: 180px
+}
+.webnine{
+    
+    background-color: #c0dad1;
+    padding: 10px;
+    width: 33%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.webnine img{
+    width: 100%;       
+    max-width: 1000px;    
+    height: 180px
+}
+@media (max-width: 480px) {
+    .websix{
+        width: 100%;
+       background-color: #c0dad1;
+        display: block;
+    }
+    .webseven{
+        width: 100%;
+        display: block;
+    }
+    .webeight{
+        width: 100%;
+        display: block;
+    }
+    .webnine{
+        width: 100%;
+        display: block;
+    }
+}
+.webten {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.webtwelve {
+    width: 50%;
+    background-color: #012141;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.webtwelve img {
+    width: 100%;
+    max-width: 100%; /* Maintain responsiveness */
+    height: auto; /* Ensure aspect ratio is preserved */
+}
+
+.webeleven {
+    width: 50%;
+    background-color: #012141;
+    padding: 20px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.webelevenpartmain {
+    display: flex;
+    flex-wrap: wrap; /* Wrap content on smaller screens */
+}
+
+.webelevenpart {
+    width: 42%;
+    box-sizing: border-box; /* Prevent width issues with padding */
+}
+
+.webelevenparttwo {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.webelevenparttwo h4 {
+    padding-left: 20px;
+}
+
+.webelevenpart3 {
+    width: 5px;
+    background-color: black;
+    height: 300px;
+}
+
+@media (max-width: 767px) {
+    .webten {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .webtwelve, 
+    .webeleven {
+        width: 100%; /* Full width for smaller screens */
+    }
+
+    .webelevenpartmain {
+        flex-direction: column; /* Stack child elements */
+        width: 100%;
+    }
+
+    .webelevenpart{
+margin-left: 10px;
+        width: 100%;
+    } 
+    .webelevenparttwo {
+        width: 100%; /* Full width for individual parts */
+    }
+
+    .webelevenparttwo h4 {
+        padding-left: 10px; /* Adjust padding for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .webten {
+        display: block; /* Display block for extra small screens */
+    }
+
+    .webtwelve, 
+    .webeleven {
+        width: 100%; /* Ensure full width */
+    }
+
+    .webelevenpartmain {
+        display: block; /* Stack all parts */
+        width: 100%;
+    }
+
+    .webelevenpart, 
+    .webelevenparttwo {
+        width: 100%;
+        display: block;
+    }
+
+    .webelevenparttwo {
+        padding-left: 0; 
+    }
+
+    .webelevenpart3 {
+        display: none; 
+    }
+}
+    .webthriteen {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    
+    .webfourteen, .webfifteen {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap; 
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    .webfourteen {
+        background-color: aquamarine;
+    }
+    
+    .webfourteenpart {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .webfourteenpart img {
+        width: 100%;
+        max-width: 100px; /* Maintain size but allow scaling */
+        margin: 10px; /* Unified margin for consistency */
+    }
+    
+    .webfourteenparttwo {
+        width: 75%;
+        text-align: left;
+        margin-top: 10px; /* Reduced margin for smaller screens */
+        padding-right: 20px; /* Adjusted padding for smaller screens */
+        box-sizing: border-box;
+    }
+    
+    .webfifteen {
+        background-color: aquamarine;
+    }
+    
+    .webfifteenpart, .webfifteenparttwo {
+        width: 50%;
+        padding: 10px; /* Adjusted padding for better responsiveness */
+        box-sizing: border-box;
+        text-align: center;
+    }
+    
+    .webfifteenpart {
+        text-align: right; /* Text-align for larger screens */
+    }
+    
+    .webfifteenparttwo img {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 0; /* Removed negative margin for better scaling */
+    }
+    
+    .webfifteenparttwo p {
+        margin-top: 0; /* Removed unnecessary margin for responsiveness */
+    }
+    
+    /* Media Queries for Responsiveness */
+    @media (max-width: 767px) {
+        .webfourteen, .webfifteen {
+            width: 100%; /* Full width for smaller screens */
+        }
+    
+        .webfourteenpart, .webfourteenparttwo, .webfifteenpart, .webfifteenparttwo {
+            width: 100%; /* Full width for individual components */
+        }
+    
+        .webfourteenpart img {
+            max-width: 80px; /* Smaller image size for compact screens */
+        }
+    
+        .webfourteenparttwo {
+            padding-right: 10px; /* Reduced padding for smaller screens */
+        }
+    
+        .webfifteenpart, .webfifteenparttwo {
+            text-align: center; /* Center-align text for better readability */
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .webfourteenpart img {
+            max-width: 60px; /* Further reduce image size on very small screens */
+        }
+    
+        .webfourteenparttwo, .webfifteenpart, .webfifteenparttwo {
+            padding: 5px; /* Compact padding for extra small screens */
+        }
+    }
+    .websixteen{
+        width: 100%;
+        display: flex;
+        background-color:  rgba(0, 0, 0, 0.959);
+    }
+    .webseventeen{
+        width: 50%;
+        padding: 25px;
+        color: white;
+
+    }
+    .webseventeen span {
+        font-weight: bold;
+        font-size: 1.5em;
+        background: linear-gradient(90deg, #ff4e50, #f9d423, #a1ffce, #12c2e9);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 300% 100%;
+        animation: textGradient 8s ease-in-out infinite, scaleText 8s ease-in-out infinite;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+    }
+    
+    @keyframes textGradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+   
+
+    
+    .webeighteen{
+
+        width: 100%;
+
+    }
+    .webtwentyone{
+        width: 50%;
+    }
+  .webtwentyone img{
+    width: 100%;
+    max-width: 100%;
   }
-  
+  @media (max-width: 480px){
+    .websixteen{
+        display: block;
+        width: 100%;
+        background-color: black;
+    }
+    .webseventeen{
+        display: block;
+        width: 100%;
+    }
+    .webtwentyone{
+        display: block;
+        width: 100%;
+        background-color: black;
+    }
+  }

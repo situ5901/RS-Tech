@@ -1,0 +1,323 @@
+/* General Styles */
+.new {
+    background-color: hwb(200 13% 25%);
+    display: flex; /* Ensure content wraps when screen size decreases */
+}
+
+.newmain {
+    display: flex;
+    background-color: #012141;
+}
+
+.newone {
+    margin-left: 50px;
+    width: 50%;
+    margin-top: 150px;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.newtwo {
+    width: 50%;
+    background-color: #012141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.new2 {
+    display: flex;
+    background-color: white;
+    height: 400px;
+    width: 100%;
+ 
+}
+
+.newthree {
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.newthree img {
+    justify-content: center;
+    margin-top: 49px;
+    max-width: 100%; /* Make the image responsive */
+}
+
+.newfour {
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+
+    
+}
+
+.newfour h2 {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    color: black;
+}
+
+
+.newfive {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    flex-wrap: wrap; 
+}
+
+.newfive {
+    height: 200px;
+    background-color: white;
+}
+.nine {
+    display: flex; 
+
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+  }
+  
+  .ten {
+    flex: 1; 
+    text-align: center; 
+    width: 50%;
+
+  }
+  
+  .twelve {
+    flex: 1; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 50%; 
+    min-height: 200px; 
+  }
+  
+  .twelve > div {
+    width: 100%; 
+    height: 400px; 
+  }
+  
+.thirteen {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    color: black;
+}
+
+
+.fourteen, .eighteen {
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    height: 150px;
+    padding: 40px;
+}
+
+.twentytwo {
+    background-color:white;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.twentythree, .twentyfour {
+    background-color: #012142;
+    width: 50%;
+}
+.twentythree img{
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+    background-color: #012142;
+
+}
+
+.twentyfour {
+    background-color: #012142;
+    padding: 40px;
+    color: white;
+}
+
+.twentyfour h1 {
+    color: white;
+}
+@media (max-width: 480px) {
+    .new{
+        width: 100%;
+        display: block;
+    }
+    .newmain{
+        display: block;
+        width: 100%;
+    
+    }
+    .newone{
+        display: inline;
+        width: 100%;
+        
+    }
+   
+      .n1{
+        margin: auto;
+        padding-left:20px;
+        padding-right: 20px;
+        
+      }
+     .newtwo{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+     }
+     .new2{
+        display: block;
+        width: 100%;
+     }
+     .newthree{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+     }
+     .newfour{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+     }
+     .newfive{
+        display: block;
+        width: 100%;
+     }
+     .newsix{
+        display: block;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+     }
+     .seven{
+        display: block;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+     }
+     .eight{
+        display: block;
+        width: 100%;
+     }
+     .nine{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        width: 100%;
+     }
+     .ten{
+       
+        width: 100%;
+     }
+     .twelve{
+        
+        width: 100%;
+
+     }
+ 
+     .fourteen{
+        display: block;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+     }
+     .fifteen{
+        display: block;
+        width: 100%;
+        text-align: center;
+     }
+     .sixteen{
+        display: block;
+        width: 100%;
+     }
+     .seventeen{
+        display: block;
+        width: 100%;
+     }
+     .eighteen{
+        height: 350px;
+        display: block;
+        width: 100%;
+
+     }
+     .nineteen{
+        display: block;
+        width: 100%;
+        text-align: center;
+     }
+     .twenty{
+        display: block;
+        width: 100%;
+        justify-content: 100%;
+        text-align: center;
+     }
+     .twentyone{
+        display: block;
+        width: 100%;
+        text-align: center;
+     }
+     .twentytwo{
+        display: block;
+        width: 100%;
+     }
+     .twentyfour{
+        display: block;
+        width: 100%;
+        text-align: center;
+     }
+     .twentythree{
+        display: block;
+        width: 100%;
+        
+     }
+     @media (max-width: 480px){
+        .thirteen{
+            width: 100%;
+        }
+     }
+}
+
+@media (max-width: 480px){
+    .newfive{
+        display: inline;
+        width: 100%;
+    }
+    .errortext{
+        height: 320px;
+        margin-top: 390px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 480px){
+    .nine{
+        display: inline;
+ padding: 20px;
+    }
+    .DGIMAGE{
+        height: 350px;
+    }
+    
+}
