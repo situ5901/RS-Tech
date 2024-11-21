@@ -4,77 +4,8 @@
     gap: 30px;
 }
 
-.SERONE {
-    width: 50%;
-    height: 200px;
-    border-radius: 10px;
-    background-image: url(https://plugins-media.makeupar.com/smb/blog/post/2023-09-14/ad8cfa44-242d-4481-a39c-e46242cdde3f.jpg);
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    transition: transform 0.3s ease, opacity 0.3s ease; 
-}
-
-.SERONE:hover {
-    transform: scale(1.05); 
-    opacity: 0.9;
-}
 
 
-
-
-
-.SERTWO{
-    width: 50%;
-    border-radius: 10px;
-    height: 200px;
-    background-image: url(https://rangiistudio.com/wp-content/uploads/2018/12/Image-to-PDF-Converter-PDF-to-Image-Converter-banner.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: transform 0.3s ease, opacity 0.3s ease; 
-}
-
-.SERTWO:hover {
-    transform: scale(1.05); 
-    opacity: 0.9;
-}
-
-
-.SERTHREE {
-    width: 50%;
-    height: 200px;
-    border-radius: 10px;
-    background-image: url(https://media.licdn.com/dms/image/v2/D5612AQHMNIVzs6dMFw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1711462575042?e=2147483647&v=beta&t=SbzygGYmxln748vamF_WAoRpRMpH0Ic7C-K_O7BiLjc);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: transform 0.3s ease, opacity 0.3s ease; 
-}
-
-
-.SERTHREE:hover {
-    transform: scale(1.05); 
-    opacity: 0.9;
-}
-
-.SERP{
-    display: flex;
-}
-.servicetext1{
-    width: 25%;
-    text-align: center;
-}
-
-.servicetext2{
-    width: 15%;
-    text-align: center;
-}
-
-.servicetext2{
-    width:55%;
-    text-align: center;
-}
 .SERVHED{
     display: flex;
     gap: 20px;
@@ -92,24 +23,119 @@
 .SERVICEFREETWO{
     width: 50%;
 }
-
-
-.Compiler {
-    width: 50%;
-    height: 200px;
+/* Parent container for all cards */
+.ServiceCards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 70px; /* Space between cards */
+    padding: 20px;
+  }
+  
+  /* Individual service card */
+  .ServiceCard {
+    width: 350px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
     border-radius: 10px;
-    background-image: url();
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    transition: transform 0.3s ease, opacity 0.3s ease; 
-}
-
-.Compiler:hover {
-    transform: scale(1.05); 
-    opacity: 0.9;
-}
-
-@media screen {
-    
-}
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .ServiceCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card link styling */
+  .card-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Card image styling */
+  .card-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; /* Ensures the image fills the container */
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  /* Card text styling */
+  .ServiceCard p {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  /* For devices with max width of 768px (tablets) */
+@media (max-width: 768px) {
+    /* Stack the SERVHED section vertically */
+    .SERVHED {
+      flex-direction: column;
+      align-items: center;
+      height: auto; /* Dynamic height */
+    }
+  
+    .SERVICEFREE,
+    .SERVICEFREETWO {
+      width: 100%; /* Full width for smaller screens */
+      text-align: center; /* Centers the content */
+      margin-top: 20px; /* Adds spacing */
+    }
+  
+    .SERVICEFREETWO img {
+      max-width: 80%; /* Scales the image proportionally */
+      height: auto;
+    }
+  
+    /* Reduce the card size for smaller screens */
+    .ServiceCard {
+      width: 250px;
+      height: 250px;
+    }
+  
+    .ServiceCards {
+      gap: 15px; /* Reduce gap between cards */
+    }
+  }
+  
+  /* For devices with max width of 480px (mobile phones) */
+  @media (max-width: 480px) {
+    /* Stack items in the ServiceCards section */
+    .ServiceCards {
+      flex-direction: column;
+      align-items: center; /* Center the cards */
+      gap: 10px; /* Reduce gap further */
+    }
+  
+    .ServiceCard {
+      width: 250px; /* Smaller card size */
+      height: 250px;
+    }
+  
+    .card-image {
+      height: 100px; /* Adjusted image height */
+    }
+  
+    .ServiceCard p {
+      font-size: 0.9rem; /* Reduce font size */
+    }
+  
+    /* Adjust SERVHED for smaller screens */
+    .SERVHED {
+      padding: 10px;
+    }
+  
+    .SERVICEFREE {
+      padding: 5px;
+    }
+  }
+  
