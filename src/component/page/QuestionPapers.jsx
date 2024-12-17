@@ -15,6 +15,66 @@ function QuestionPapers() {
                         <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
                     </div>
                 </Link>
+                <Link to='/paper'>
+                    <div className="paper-box">
+                        <span>🌟</span>
+                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
+                    </div>
+                </Link>
+                <Link to='/paper'>
+                    <div className="paper-box">
+                        <span>🌟</span>
+                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
+                    </div>
+                </Link>
+                <Link to='/paper'>
+                    <div className="paper-box">
+                        <span>🌟</span>
+                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
+                    </div>
+                </Link>
+                <Link to='/paper'>
+                    <div className="paper-box">
+                        <span>🌟</span>
+                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
+                    </div>
+                </Link>
+                <Link to='/paper'>
+                    <div className="paper-box">
+                        <span>🌟</span>
+                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
+                    </div>
+                </Link>
+                <Link to='/paper'>
+                    <div className="paper-box">
+                        <span>🌟</span>
+                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
+                    </div>
+                </Link>
+                <Link to='/paper'>
+                    <div className="paper-box">
+                        <span>🌟</span>
+                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
+                    </div>
+                </Link>
+                <Link to='/paper'>
+                    <div className="paper-box">
+                        <span>🌟</span>
+                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
+                    </div>
+                </Link>
+                <Link to='/paper'>
+                    <div className="paper-box">
+                        <span>🌟</span>
+                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
+                    </div>
+                </Link>
+                <Link to='/paper'>
+                    <div className="paper-box">
+                        <span>🌟</span>
+                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
+                    </div>
+                </Link>
             </div>
         </div>
     )

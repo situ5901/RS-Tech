@@ -1,3 +1,14 @@
+.download-box {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.download-box img{
+  box-shadow: 0 0 10px black;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
 .Download-button {
     display: flex;
     align-items: center;

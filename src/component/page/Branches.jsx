@@ -29,6 +29,46 @@ function Branches() {
             <h2>Computer Enginnering</h2>
           </div>
         </NavLink>
+        <NavLink to={'/question-papers'}>
+          <div className="branch-box">
+            <h2>Computer Enginnering</h2>
+          </div>
+        </NavLink>
+        <NavLink to={'/question-papers'}>
+          <div className="branch-box">
+            <h2>Computer Enginnering</h2>
+          </div>
+        </NavLink>
+        <NavLink to={'/question-papers'}>
+          <div className="branch-box">
+            <h2>Computer Enginnering</h2>
+          </div>
+        </NavLink>
+        <NavLink to={'/question-papers'}>
+          <div className="branch-box">
+            <h2>Computer Enginnering</h2>
+          </div>
+        </NavLink>
+        <NavLink to={'/question-papers'}>
+          <div className="branch-box">
+            <h2>Computer Enginnering</h2>
+          </div>
+        </NavLink>
+        <NavLink to={'/question-papers'}>
+          <div className="branch-box">
+            <h2>Computer Enginnering</h2>
+          </div>
+        </NavLink>
+        <NavLink to={'/question-papers'}>
+          <div className="branch-box">
+            <h2>Computer Enginnering</h2>
+          </div>
+        </NavLink>
+        <NavLink to={'/question-papers'}>
+          <div className="branch-box">
+            <h2>Computer Enginnering</h2>
+          </div>
+        </NavLink>
       </div>
     </div>
   )

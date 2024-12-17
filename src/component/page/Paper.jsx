@@ -14,6 +14,7 @@ function Paper() {
           <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
         </div>
         <div className="download-box">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa-2QTebY4VF9vNUKB6B5V7ktyOGyuASmBGQ&s" alt="" />
           <button className="Download-button">
             <svg
               viewBox="0 0 640 512"
