@@ -25,6 +25,9 @@ import JpgToPdfConverter from './component/page/JPGtoPDF.jsx'
 import AIG from './component/page/AIG.jsx';
 import QRcode from "./component/page/QRcode.jsx"
 import BG from "./component/page/BG.jsx"
+import Branches from './component/page/Branches.jsx';
+import QuestionPapers from './component/page/QuestionPapers.jsx';
+import Paper from './component/page/Paper.jsx';
 
 
 
@@ -131,6 +134,9 @@ function App() {
         <Route path="/JpgToPdfConverter" element={<JpgToPdfConverter/>}/>
         <Route path="/QRcode" element={<QRcode/>}/>
         <Route path="/BG" element={<BG/>}/>
+        <Route path="/branches" element={<Branches />}/>
+        <Route path="/question-papers" element={<QuestionPapers />}/>
+        <Route path="/paper" element={<Paper />}/>
         
       </Routes>
 

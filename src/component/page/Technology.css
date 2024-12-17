@@ -36,7 +36,7 @@
   /* Individual service card */
   .ServiceCard {
     width: 350px;
-    height: 290px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -38,7 +38,7 @@ function Careers() {
       <hr className='Carrer' />
       <div className="CarrerTeam">
         <div className="CarrerTeams">
-          <h2>Our <ins><span style={{ color: "#012141" }}>Workplace</span></ins> </h2>
+          <h2>Our <ins><span style={{ color: "red" }}>Work</span><span style={{ color: "green" }}>place</span></ins> </h2>
         </div>
         <div className="CarrerWork">
           <div className="Carreone">

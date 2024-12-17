@@ -318,6 +318,10 @@ textarea.input {
   .form {
     grid-template-columns: 1fr;
   }
+  
+  .container {
+    height: auto;
+  }
 
   .contact-info:before {
     bottom: initial;
@@ -355,6 +359,7 @@ textarea.input {
 @media (max-width: 480px) {
   .container {
     padding: 1.5rem;
+    height: auto;
   }
 
   .contact-info:before {

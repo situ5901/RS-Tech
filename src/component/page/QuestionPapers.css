@@ -1,0 +1,20 @@
+.paper-list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.paper-list a{
+    text-decoration: none;
+}
+
+.paper-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.paper-box h4 {
+    margin: 0;
+    font-size: 20px;
+}
