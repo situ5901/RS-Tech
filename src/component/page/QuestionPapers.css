@@ -12,9 +12,14 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #01091b;
+
 }
 
 .paper-box h4 {
     margin: 0;
     font-size: 20px;
+    color: white;
 }

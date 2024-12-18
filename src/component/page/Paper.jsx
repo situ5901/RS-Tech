@@ -15,7 +15,7 @@ function Paper() {
         </div>
         <div className="download-box">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa-2QTebY4VF9vNUKB6B5V7ktyOGyuASmBGQ&s" alt="" />
-          <button className="Download-button">
+          <button className="Download-button" onClick={() => window.open("https://www.hsbteonline.com/papers/computer-6-sem-mobile-application-development-v2-180863-2023.pdf", "_blank")}>
             <svg
               viewBox="0 0 640 512"
               width="20"

@@ -1,7 +1,8 @@
 .branch-sec {
-    margin: 50px;
+    padding: 50px;
     text-align: center;
     height: max-content;
+    background: linear-gradient(135deg, #012141, #ffffff);
 }
 
 .branch-title {
@@ -12,15 +13,41 @@
 }
 
 .branch-title h1 {
-    margin: 0;
-    color: var(--varyDarkBlue);
+    font-size: 3rem;
+    font-weight: 300;
+    background: linear-gradient(90deg, #ff007f, #ff8c00, #ff007f);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientAnimation 3s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.main-box {
+    display: flex;
+    gap: 100px;
 }
 
 .branch-list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 items in a row on desktop */
+    grid-template-columns: repeat(3, 1fr);
+    /* 4 items in a row on desktop */
     gap: 40px;
-    width: 100%;
+    width: 60%;
 }
 
 .branch-list a {
@@ -28,33 +55,149 @@
 }
 
 .branch-box {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    gap: 20px;
     border-radius: 20px;
     padding: 10px;
+    background-color: white;
+    height: 80px;
     /* border: 4px solid black; */
-    box-shadow: 0 0 10px black;
+    box-shadow: 7px 7px 14px 0px black;
+    transition: background 0.5s ease-in-out, transform 0.3s ease;
+}
+
+.branch-box i {
+    font-size: 20px;
+    color: #012141;
+    transition: color 0.2s ease-in-out;
+}
+
+.branch-box:hover i {
+    color: white;
+}
+
+.branch-box:hover {
+    background: linear-gradient(135deg, #f04954, hsl(210, 100%, 63%));
+    transform: scale(1.05);
+    /*Slight zoom effect*/
+    box-shadow: 7px 7px 24px 0px black
 }
 
 .branch-box h2 {
-    font-size: 25px;
-    color: red;
+    font-size: 20px;
+    color: #012141;
+    margin: 0;
+    transition: color 0.2s ease-in-out;
+    /* Smooth transition for text color */
 }
+
+.branch-box:hover h2 {
+    color: white;
+}
+
+.semester-sec {
+    width: 70%;
+    margin: auto;
+}
+.semester-box {
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    scroll-margin-top: 80px
+}
+
+.semester-box2 {
+    display: flex;
+    justify-content: center;
+}
+
+.semester-box h2 {
+    /* Orange heading color */
+    font-size: 1.8rem;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+    background: linear-gradient(90deg, #ff007f, #ff8c00, #ff007f);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientAnimation 3s ease infinite;
+}
+
+.semester-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    /* Adds space between buttons */
+    flex-wrap: wrap;
+}
+
+.semester-list a {
+    text-decoration: none;
+}
+
+.semester-button {
+    background-color: #e6e6e6;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.semester-button:hover {
+    background-color: #ff6600;
+    color: white;
+    transform: scale(1.05);
+}
+
 
 /* Media Query for Mobile Screens */
 @media screen and (max-width: 768px) {
     .branch-list {
-        grid-template-columns: repeat(2, 1fr); /* 2 items in a row on smaller screens */
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 items in a row on smaller screens */
     }
 }
 
 @media screen and (max-width: 480px) {
     .branch-list {
-        grid-template-columns: 1fr; /* 1 item per row on very small screens */
         gap: 20px;
+        width: 100%;
     }
+
+    .branch-box {
+        padding: 5px;
+        height: 60px;
+    }
+
     .branch-box h2 {
-        font-size: 20px;
+        font-size: 15px;
     }
+
     .branch-sec {
-        margin: 10px;
+        padding: 10px;
+    }
+
+    .main-box {
+        display: inline-block;
+    }
+
+    .semester-box2 {
+        display: inline-block;
+    }
+
+    .semester-box h2 {
+        font-size: 1rem ;
     }
 }
