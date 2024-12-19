@@ -1,83 +1,25 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
-import './QuestionPapers.css'
+import './QuestionPapers.css';
 
 function QuestionPapers() {
     return (
         <div className="branch-sec">
             <div className="branch-title">
-                <h1>Computer Enginnering</h1>
+                <h1>Computer Engineering</h1>
             </div>
             <div className="paper-list">
-                <Link to='/paper'>
-                    <div className="paper-box">
-                        <span>🌟</span>
-                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
-                    </div>
-                </Link>
-                <Link to='/paper'>
-                    <div className="paper-box">
-                        <span>🌟</span>
-                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
-                    </div>
-                </Link>
-                <Link to='/paper'>
-                    <div className="paper-box">
-                        <span>🌟</span>
-                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
-                    </div>
-                </Link>
-                <Link to='/paper'>
-                    <div className="paper-box">
-                        <span>🌟</span>
-                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
-                    </div>
-                </Link>
-                <Link to='/paper'>
-                    <div className="paper-box">
-                        <span>🌟</span>
-                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
-                    </div>
-                </Link>
-                <Link to='/paper'>
-                    <div className="paper-box">
-                        <span>🌟</span>
-                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
-                    </div>
-                </Link>
-                <Link to='/paper'>
-                    <div className="paper-box">
-                        <span>🌟</span>
-                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
-                    </div>
-                </Link>
-                <Link to='/paper'>
-                    <div className="paper-box">
-                        <span>🌟</span>
-                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
-                    </div>
-                </Link>
-                <Link to='/paper'>
-                    <div className="paper-box">
-                        <span>🌟</span>
-                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
-                    </div>
-                </Link>
-                <Link to='/paper'>
-                    <div className="paper-box">
-                        <span>🌟</span>
-                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
-                    </div>
-                </Link>
-                <Link to='/paper'>
-                    <div className="paper-box">
-                        <span>🌟</span>
-                        <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
-                    </div>
-                </Link>
+                {Array(10).fill('COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023').map((paper, index) => (
+                    <Link to="/paper" key={index} className="paper-link">
+                        <div className="paper-box">
+                            <span className="star">🌟</span>
+                            <h4>{paper}</h4>
+                        </div>
+                    </Link>
+                ))}
             </div>
         </div>
-    )
+    );
 }
 
-export default QuestionPapers
+export default QuestionPapers;

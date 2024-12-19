@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import './Branches.css';
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Lottie from 'lottie-react';
 import ExamLottie from '../assest/exam-lottie.json';
 import ExamPng from '../assest/exam.png';
@@ -78,7 +78,7 @@ function Branches() {
                 ))}
               </div>
               <div style={{ textAlign: 'center', marginTop: '20px' }}>
-                <img src={ExamPng} alt="Exam" />
+                <img style={{width: '100%'}} src={ExamPng} alt="Exam" />
               </div>
             </div>
           </div>

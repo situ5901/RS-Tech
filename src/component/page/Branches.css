@@ -98,7 +98,7 @@
 }
 
 .semester-sec {
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 .semester-box {
@@ -193,8 +193,16 @@
         display: inline-block;
     }
 
+    .semester-sec {
+        marign: 0;
+        width: 100%;
+    }
     .semester-box2 {
         display: inline-block;
+    }
+
+    .semester-box2{
+        width: 100%;
     }
 
     .semester-box h2 {

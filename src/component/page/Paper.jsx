@@ -1,21 +1,32 @@
-import React from 'react'
-import './Paper.css'
-import { Link } from 'react-router-dom';
+import React from 'react';
+import './Paper.css';
 
 function Paper() {
   return (
     <div className="branch-sec">
       <div className="branch-title">
-        <h1>Computer Enginnering</h1>
+        <h1>Computer Engineering</h1>
       </div>
-      <div className="paper-list">
+      <div className="paper-container">
         <div className="paper-box">
-          <span>🌟</span>
+          <span className="paper-star">🌟</span>
           <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
         </div>
         <div className="download-box">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa-2QTebY4VF9vNUKB6B5V7ktyOGyuASmBGQ&s" alt="" />
-          <button className="Download-button" onClick={() => window.open("https://www.hsbteonline.com/papers/computer-6-sem-mobile-application-development-v2-180863-2023.pdf", "_blank")}>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa-2QTebY4VF9vNUKB6B5V7ktyOGyuASmBGQ&s"
+            alt="Question Papers"
+            className="download-image"
+          />
+          <button
+            className="Download-button"
+            onClick={() =>
+              window.open(
+                'https://www.hsbteonline.com/papers/computer-6-sem-mobile-application-development-v2-180863-2023.pdf',
+                '_blank'
+              )
+            }
+          >
             <svg
               viewBox="0 0 640 512"
               width="20"
@@ -32,7 +43,7 @@ function Paper() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Paper
+export default Paper;

@@ -87,4 +87,9 @@
     border-bottom-left-radius: 0px;
     transform: translate(-5px, 15px) rotate(45deg);
   }
-  
+
+.paper-box {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 20px;
+}
