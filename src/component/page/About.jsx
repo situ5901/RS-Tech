@@ -33,7 +33,7 @@ function About() {
       </div>
 
       <div className="whyrstech">
-        <h2>How does Rasa work towards success?</h2>
+        <h2>How does RS-TECH work towards success?</h2>
         <h6>recognition excellence proven customer satisfaction</h6>
       </div>
 
