@@ -1,16 +1,30 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import './Paper.css';
 
-function Paper() {
+const Paper = () => {
+  const { state } = useLocation();
+  const { semester, branch, paperName } = state || {}; // Destructure state properties
+
+  // Validate required state values
+  if (!semester || !branch || !paperName) {
+    return <div className="error">Invalid paper details. Please go back and try again.</div>;
+  }
+
+  const handleDownload = () => {
+    const downloadUrl = `http://localhost:4000/api/QuestionPapers/${branch}/${semester}/${paperName}`;
+    window.open(downloadUrl, '_blank');
+  };
+
   return (
     <div className="branch-sec">
       <div className="branch-title">
-        <h1>Computer Engineering</h1>
+        <h1>{branch} - {semester}</h1>
       </div>
       <div className="paper-container">
         <div className="paper-box">
           <span className="paper-star">🌟</span>
-          <h4>COMMON-1-YEAR-APPLIED-CHEMISTRY-180014-2023</h4>
+          <h4>{paperName}</h4>
         </div>
         <div className="download-box">
           <img
@@ -22,7 +36,7 @@ function Paper() {
             className="Download-button"
             onClick={() =>
               window.open(
-                'https://www.hsbteonline.com/papers/computer-6-sem-mobile-application-development-v2-180863-2023.pdf',
+                `http://localhost:4000/api/QuestionPapers/${branch}/${semester}/${paperName}`,
                 '_blank'
               )
             }
@@ -44,6 +58,6 @@ function Paper() {
       </div>
     </div>
   );
-}
+};
 
 export default Paper;
