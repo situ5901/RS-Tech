@@ -14,7 +14,7 @@
 
 .branch-title h1 {
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: 700;
     background: linear-gradient(90deg, #ff007f, #ff8c00, #ff007f);
     background-size: 200% 200%;
     -webkit-background-clip: text;
@@ -143,6 +143,16 @@
     text-decoration: none;
 }
 
+.semester-list p{
+    /* background-color: #e6e6e6;
+    border: 1px solid #ccc;
+    border-radius: 20px; */
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+}
+
 .semester-button {
     background-color: #e6e6e6;
     border: 1px solid #ccc;
@@ -171,6 +181,11 @@
 }
 
 @media screen and (max-width: 480px) {
+    .branch-title h1 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
     .branch-list {
         gap: 20px;
         width: 100%;
@@ -207,5 +222,14 @@
 
     .semester-box h2 {
         font-size: 1rem ;
+    }
+    .semester-list p {
+        padding: 10px 20px;
+        font-size: 0.8rem;
+    }
+    .semester-button {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        font-weight: 400;
     }
 }

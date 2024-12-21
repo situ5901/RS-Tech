@@ -7,13 +7,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.branch-title h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #ff9800;
-    margin-bottom: 30px;
-}
-
 .paper-list {
     width: 80%;
     margin: auto;

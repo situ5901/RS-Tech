@@ -34,13 +34,13 @@ const Branches = () => {
     setLoading(true);
 
     try {
-      const response = await fetch(`http://localhost:4000/api/QuestionPapers/${branchName}`);
+      const response = await fetch(`http://localhost:3001/api/QuestionPapers/${branchName}`);
       if (!response.ok) {
         throw new Error('Failed to fetch semesters.');
       }
 
       const data = await response.json();
-      setSemesters(data.items || []); // Assuming "items" contains semesters
+      setSemesters(data.items || []);
     } catch (error) {
       console.error('Error fetching semesters:', error);
       setSemesters([]);

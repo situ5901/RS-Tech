@@ -11,11 +11,6 @@ const Paper = () => {
     return <div className="error">Invalid paper details. Please go back and try again.</div>;
   }
 
-  const handleDownload = () => {
-    const downloadUrl = `http://localhost:4000/api/QuestionPapers/${branch}/${semester}/${paperName}`;
-    window.open(downloadUrl, '_blank');
-  };
-
   return (
     <div className="branch-sec">
       <div className="branch-title">
@@ -36,7 +31,7 @@ const Paper = () => {
             className="Download-button"
             onClick={() =>
               window.open(
-                `http://localhost:4000/api/QuestionPapers/${branch}/${semester}/${paperName}`,
+                `http://localhost:3001/api/QuestionPapers/${branch}/${semester}/${paperName}`,
                 '_blank'
               )
             }

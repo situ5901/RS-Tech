@@ -16,7 +16,7 @@ const QuestionPapers = () => {
       }
 
       try {
-        const response = await fetch(`http://localhost:4000/api/QuestionPapers/${branch}/${semester}`);
+        const response = await fetch(`http://localhost:3001/api/QuestionPapers/${branch}/${semester}`);
         if (!response.ok) throw new Error('Failed to fetch papers. Please try again later.');
 
         const data = await response.json();
