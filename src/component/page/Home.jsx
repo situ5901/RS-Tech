@@ -180,7 +180,13 @@ function Home() {
             padding: '10px',
             marginTop: '7px'
           }}>
-            er.situkumar@gmail.com
+            <a 
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=er.situkumar@gmail.com&su=Subject%20Here&body=Hello,%20I%20would%20like%20to%20discuss..." 
+  style={{ textDecoration: 'none', color: 'white' }}
+>
+  er.situkumar@gmail.com
+</a>
+
           </div>
         </div>
 
