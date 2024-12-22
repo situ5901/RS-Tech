@@ -65,8 +65,8 @@ function Careers() {
         <div className="OURFIRST2">
           <div className="OURMAIN2"></div>
           <div className="OURTEXT">
-            <h4>Sr.SDE</h4>
-            <p>Parveen Chouhan</p>
+            <h4>Jr.SDE</h4>
+            <p>Anand Kumar</p>
           </div>
         </div>
         <div className="OURFIRST3">

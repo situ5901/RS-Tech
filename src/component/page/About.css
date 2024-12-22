@@ -19,6 +19,7 @@
 
 
 
+
 @media only screen and (max-width: 1320px) {
   .about {
     display: inline;
@@ -140,3 +141,85 @@
   }
 
 }
+.future-goals h2{
+  text-align: center;
+}
+.values, .future-goals {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+
+.values, .future-goals {
+  flex: 1; /* Makes each item take equal width */
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.values ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.values li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.future-goals p {
+  font-size: 16px;
+}
+
+/* Make sure the text size is responsive */
+.values h2, .future-goals h2 {
+  font-size: 1.5rem; /* Adjust font size for headings */
+}
+
+.values li, .future-goals p {
+  font-size: 1rem; /* Adjust font size for the text */
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 768px) {
+  .bigvalue {
+    flex-direction: column; /* Stack the sections vertically on tablets and smaller screens */
+    align-items: center; /* Center-align the items */
+  }
+
+  .values, .future-goals {
+    width: 100%; /* Make sections take full width */
+    margin-top: 10px;
+    padding: 15px;
+  }
+
+  .values ul {
+    margin-left: 0; /* Remove left margin for mobile devices */
+  }
+
+  .values li, .future-goals p {
+    font-size: 14px; /* Adjust text size for better readability */
+  }
+}
+
+@media (max-width: 480px) {
+  .bigvalue {
+    gap: 10px; /* Less gap for smaller screens */
+  }
+
+  .values, .future-goals {
+    padding: 10px; /* Reduce padding on smaller screens */
+  }
+
+  .values h2, .future-goals h2 {
+    font-size: 1.25rem; /* Adjust heading font size for smaller screens */
+  }
+
+  .values li, .future-goals p {
+    font-size: 12px; /* Reduce text size for mobile devices */
+  }
+}
+
