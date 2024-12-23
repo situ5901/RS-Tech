@@ -326,6 +326,7 @@
   margin-top: 10px;
   border-radius: 100%;
   background-color: cyan;
+  background-size: contain;
 }
 
 .OURMAIN3 {
