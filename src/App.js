@@ -28,6 +28,7 @@ import BG from "./component/page/BG.jsx"
 import Branches from './component/page/Branches.jsx';
 import QuestionPapers from './component/page/QuestionPapers.jsx';
 import Paper from './component/page/Paper.jsx';
+import AptitudeTest from './component/page/Aptitude.jsx';
 
 
 
@@ -137,6 +138,7 @@ function App() {
         <Route path="/branches" element={<Branches />}/>
         <Route path="/question-papers" element={<QuestionPapers />}/>
         <Route path="/paper" element={<Paper />}/>
+        <Route path="/aptitude-test" element={<AptitudeTest />}/>
         
       </Routes>
 

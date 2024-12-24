@@ -200,7 +200,7 @@ justify-content: center;
         display: flex;
         width: 100%;
         justify-content: center;
-        background-color: red;
+        /* background-color: red; */
     }
    
 }
@@ -213,7 +213,7 @@ justify-content: center;
 
 @media screen and (max-width: 620px){
     .mulcard{
-        background-color: red;
+        /* background-color: red; */
         display: inline;
     }
 

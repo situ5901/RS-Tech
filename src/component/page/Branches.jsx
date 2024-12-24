@@ -84,10 +84,10 @@ const Branches = () => {
           <div className="semester-box">
             <h2>Select Semester for {selectedBranch}</h2>
             <div className="semester-box2">
+                <div className="semester-list">
               {loading ? (
                 <p>Loading semesters...</p>
-              ) : (
-                <div className="semester-list">
+              ) : (<>
                   {semesters.length > 0 ? (
                     semesters.map((sem, index) => (
                       <Link
@@ -102,8 +102,9 @@ const Branches = () => {
                   ) : (
                     <p>No semesters found for this branch.</p>
                   )}
+                  </>
+                )}
                 </div>
-              )}
               <div style={{ textAlign: 'center', marginTop: '20px' }}>
                 <img style={{ width: '100%' }} src={ExamPng} alt="Exam" />
               </div>

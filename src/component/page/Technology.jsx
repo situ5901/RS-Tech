@@ -99,7 +99,27 @@ function Technology() {
               }}>
                 HSBTE Old Question Paper
               </p>
+            </Link>
+          </div>
 
+          {/* Card 5 */}
+          <div className="ServiceCard">
+            <Link to="/aptitude-test" className="card-link">
+              <img
+                src="https://img.freepik.com/premium-vector/online-test-illustration-flat-style-vector-mobile-education-concept_203633-1678.jpg?w=740"
+                alt="Aptitude Test image"
+                className="card-image"
+              />
+              <p style={{
+                fontWeight: "bold",
+                fontSize: "1.5rem",
+                color: "#4A90E2",
+                textAlign: "center",
+                marginTop: "10px",
+                textShadow: "1px 1px 2px rgba(0, 0, 0, 0.2)"
+              }}>
+                Aptitude Tests
+              </p>
             </Link>
           </div>
         </div>

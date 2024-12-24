@@ -100,6 +100,7 @@
 .semester-sec {
     width: 60%;
     margin: auto;
+    scroll-margin-top: 80px
 }
 .semester-box {
     margin: 20px auto;
@@ -110,7 +111,6 @@
     background: #f8f9fa;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 50px;
-    scroll-margin-top: 80px
 }
 
 .semester-box2 {
