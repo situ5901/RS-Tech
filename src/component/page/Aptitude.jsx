@@ -1,5 +1,6 @@
 import React from 'react';
 import './Aptitude.css';
+import { Link } from 'react-router-dom';
 
 const AptitudeTest = () => {
   return (
@@ -14,7 +15,7 @@ const AptitudeTest = () => {
           <button class="start-btn">Start Free Test</button>
         </div>
       </div>
-      <div class="header">
+      <div class="Aptitudeheader">
         <div class="icon-section">
           <div class="iconBox">
             <i class="bi bi-calculator-fill"></i>
@@ -58,37 +59,39 @@ const AptitudeTest = () => {
         <h2>Practice Tests by Category</h2>
         <p>Find the test prep materials suitable for your needs. Select the relevant category below.</p>
         <div class="card-container">
-          <div class="card">
+          <Link to="/aptitude-question" className="card-link">
+            <div class="aptitudeCard card">
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDkpOp4Uc7B-odBerv9-DcT-mKTLuiW1Vug&s" alt="Numerical Reasoning" />
-              <h3>Numerical Reasoning</h3>
+              <h6>Numerical Reasoning</h6>
+            </div>
+          </Link>
+          <div class="aptitudeCard card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDkpOp4Uc7B-odBerv9-DcT-mKTLuiW1Vug&s" alt="Verbal Skills" />
+            <h6>Verbal Skills</h6>
           </div>
-          <div class="card">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDkpOp4Uc7B-odBerv9-DcT-mKTLuiW1Vug&s" alt="Verbal Skills" />
-              <h3>Verbal Skills</h3>
+          <div class="aptitudeCard card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDkpOp4Uc7B-odBerv9-DcT-mKTLuiW1Vug&s" alt="Mechanical Aptitude" />
+            <h6>Mechanical Aptitude</h6>
           </div>
-          <div class="card">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDkpOp4Uc7B-odBerv9-DcT-mKTLuiW1Vug&s" alt="Mechanical Aptitude" />
-              <h3>Mechanical Aptitude</h3>
+          <div class="aptitudeCard card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDkpOp4Uc7B-odBerv9-DcT-mKTLuiW1Vug&s" alt="Abstract Reasoning" />
+            <h6>Abstract Reasoning</h6>
           </div>
-          <div class="card">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDkpOp4Uc7B-odBerv9-DcT-mKTLuiW1Vug&s" alt="Abstract Reasoning" />
-              <h3>Abstract Reasoning</h3>
+          <div class="aptitudeCard card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDkpOp4Uc7B-odBerv9-DcT-mKTLuiW1Vug&s" alt="Deductive Reasoning" />
+            <h6>Deductive Reasoning</h6>
           </div>
-          <div class="card">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDkpOp4Uc7B-odBerv9-DcT-mKTLuiW1Vug&s" alt="Deductive Reasoning" />
-              <h3>Deductive Reasoning</h3>
+          <div class="aptitudeCard card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDkpOp4Uc7B-odBerv9-DcT-mKTLuiW1Vug&s" alt="Spatial Ability" />
+            <h6>Spatial Ability</h6>
           </div>
-          <div class="card">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDkpOp4Uc7B-odBerv9-DcT-mKTLuiW1Vug&s" alt="Spatial Ability" />
-              <h3>Spatial Ability</h3>
+          <div class="aptitudeCard card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDkpOp4Uc7B-odBerv9-DcT-mKTLuiW1Vug&s" alt="Deductive Reasoning" />
+            <h6>Deductive Reasoning</h6>
           </div>
-          <div class="card">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDkpOp4Uc7B-odBerv9-DcT-mKTLuiW1Vug&s" alt="Deductive Reasoning" />
-              <h3>Deductive Reasoning</h3>
-          </div>
-          <div class="card">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDkpOp4Uc7B-odBerv9-DcT-mKTLuiW1Vug&s" alt="Spatial Ability" />
-              <h3>Spatial Ability</h3>
+          <div class="aptitudeCard card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDkpOp4Uc7B-odBerv9-DcT-mKTLuiW1Vug&s" alt="Spatial Ability" />
+            <h6>Spatial Ability</h6>
           </div>
         </div>
       </div>

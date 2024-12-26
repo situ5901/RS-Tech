@@ -51,7 +51,7 @@
 }
 
 
-.header {
+.Aptitudeheader {
   background-color: #333;
   color: white;
   padding: 20px 0;
@@ -150,7 +150,7 @@
 }
 
 /* Card styles */
-.card {
+.aptitudeCard {
   padding: 0;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
@@ -159,17 +159,17 @@
   text-align: center;
   box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.1);
 }
-.card:hover{
+.aptitudeCard:hover{
   box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
-.card img {
+.aptitudeCard img {
   width: 100%;
   /* Ensure image covers card width */
   height: auto;
 }
 
-.card h3 {
+.aptitudeCard h6 {
   margin: 15px 0;
   font-size: 1rem;
   text-transform: none;
@@ -205,7 +205,7 @@
     max-width: 100%;
     text-align: center;
   }
-  .card{
+  .aptitudeCard{
     margin: 0;
     gap: 10px;
     padding: 10px;

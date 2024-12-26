@@ -29,6 +29,7 @@ import Branches from './component/page/Branches.jsx';
 import QuestionPapers from './component/page/QuestionPapers.jsx';
 import Paper from './component/page/Paper.jsx';
 import AptitudeTest from './component/page/Aptitude.jsx';
+import AptitudeQuestion from './component/page/AptitudeQuestion.jsx';
 
 
 
@@ -139,7 +140,7 @@ function App() {
         <Route path="/question-papers" element={<QuestionPapers />}/>
         <Route path="/paper" element={<Paper />}/>
         <Route path="/aptitude-test" element={<AptitudeTest />}/>
-        
+        <Route path="/aptitude-question" element={<AptitudeQuestion />}/>
       </Routes>
 
     <Footer/>
